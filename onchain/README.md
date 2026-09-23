@@ -22,6 +22,20 @@ Open House Singapore Buildathon build. Target: **Robinhood Chain testnet (chain 
 | Rayquaza VMAX TG20, Silver Tempest | 153708045 | $375 – $415 | $188 |
 | Umbreon VMAX TG23, Brilliant Stars | 111992917 | $263 – $282 | $131 |
 
+## Cross-check against Gacha Galaxy's own oracle
+`data/gg_crosscheck.py` pulls same-grade (PSA 10) listings and **Gacha Galaxy oracle fair values** from the live app (gachagalaxy.io, no key) and compares them with each appraisal. Results go to `data/gg_crosscheck.json`.
+
+| Card (PSA 10) | Appraisal | GG oracle median (n) | Gap vs point |
+|---|---|---|---|
+| Rayquaza VMAX 218 | $2,725–$3,075 | $2,921 (5) | +0.7% ✅ in band |
+| Pikachu & Zekrom SM168 | $2,875–$3,525 | no PSA 10 listing tracked | – |
+| Lugia V 186 | $1,269–$1,393 | $1,406 (2) | +5.6% |
+| Giratina VSTAR GG69 | $550–$610 | $707 (26) | +21.9% |
+| Rayquaza VMAX TG20 | $375–$415 | $500 (6) | +26.6% |
+| Umbreon VMAX TG23 | $263–$282 | $285 (13) | +4.6% |
+
+The appraisal sits **below** the oracle every time. That's expected: insured values run under asking prices, and lending should be conservative. Neither source is completed sales.
+
 ## Run it
 ```bash
 curl -L https://foundry.paradigm.xyz | bash && foundryup

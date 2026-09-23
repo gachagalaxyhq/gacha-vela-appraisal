@@ -1,0 +1,558 @@
+{
+  "source": "Gacha Galaxy oracle (gachagalaxy.io/app, public pages)",
+  "pulledAt": "2026-09-23T06:41:28+00:00",
+  "basis": "Gacha Galaxy oracle FMV per live listing, same grade only; not completed sales",
+  "cards": [
+    {
+      "certId": "109308847",
+      "name": "2021 #218 Full Art/Rayquaza Vmax PSA 10 Sword & Shield Evolving Skies",
+      "grade": "PSA 10",
+      "appraisal": {
+        "low": 2725.13,
+        "point": 2900.0,
+        "high": 3074.87
+      },
+      "ggListingsSameGrade": 5,
+      "ggOracleFmvMedian": 2921.0,
+      "ggOracleFmvRange": [
+        2668.3,
+        3177.0
+      ],
+      "ggPlatforms": [
+        "Courtyard"
+      ],
+      "deltaVsPointPct": 0.7,
+      "withinBand": true,
+      "listings": [
+        {
+          "ggCardId": 8922,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 2600.0,
+          "oracleFmv": 2668.3,
+          "url": "https://courtyard.io/asset/7785a9291381bdce1208d1d84c55e44c1f6633a7aa91236436778a04d88c969c"
+        },
+        {
+          "ggCardId": 8922,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 2872.56,
+          "oracleFmv": 2921.0,
+          "url": "https://courtyard.io/asset/72e1749ce8559ee3874f251f543e3fc3f96da760a442d177428557d4bab575f8"
+        },
+        {
+          "ggCardId": 8922,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 2900.0,
+          "oracleFmv": 3055.0,
+          "url": "https://courtyard.io/asset/68cf9972492cefbf9b403571c732b053568ffa921a16f4ca258c8a716c352f07"
+        },
+        {
+          "ggCardId": 8922,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 2699.0,
+          "oracleFmv": 3177.0,
+          "url": "https://courtyard.io/asset/1d2cf4d0efaedb80aa0c8c065b5982adacb8155d2e83f852f988653c92b7262f"
+        },
+        {
+          "ggCardId": 8922,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 2600.0,
+          "oracleFmv": 2766.0,
+          "url": "https://courtyard.io/asset/cd6a2b34ed12a08cf2258658e2fdf1f22302e5fa3a579eda77d760267c2e8bb0"
+        }
+      ]
+    },
+    {
+      "certId": "118973623",
+      "name": "2019 #SM168 Full Art/Pikachu & Zekrom GX PSA 10 SM Black Star Promo",
+      "grade": "PSA 10",
+      "appraisal": {
+        "low": 2875.2,
+        "point": 3200.0,
+        "high": 3524.8
+      },
+      "ggListingsSameGrade": 0,
+      "ggOracleFmvMedian": null,
+      "ggOracleFmvRange": null,
+      "ggPlatforms": [],
+      "deltaVsPointPct": null,
+      "withinBand": null,
+      "listings": []
+    },
+    {
+      "certId": "100863346",
+      "name": "2022 #186 Full Art/Lugia V PSA 10 Sword & Shield Silver Tempest",
+      "grade": "PSA 10",
+      "appraisal": {
+        "low": 1268.58,
+        "point": 1331.0,
+        "high": 1393.42
+      },
+      "ggListingsSameGrade": 2,
+      "ggOracleFmvMedian": 1406.0,
+      "ggOracleFmvRange": [
+        1331.0,
+        1481.0
+      ],
+      "ggPlatforms": [
+        "Beezie",
+        "Collector_Crypt"
+      ],
+      "deltaVsPointPct": 5.6,
+      "withinBand": false,
+      "listings": [
+        {
+          "ggCardId": 6906,
+          "platform": "Collector_Crypt",
+          "grade": "PSA 10",
+          "ask": 1299.0,
+          "oracleFmv": 1331.0,
+          "url": "https://collectorcrypt.com/assets/solana/4rT6vJaW5eYfkobPouW8QnuJf4nxiroTFTpv1XrMfH4R"
+        },
+        {
+          "ggCardId": 6906,
+          "platform": "Beezie",
+          "grade": "PSA 10",
+          "ask": 1699.0,
+          "oracleFmv": 1481.0,
+          "url": "https://beezie.com/marketplace/collectible/2022-Silver-Tempest-Lugia-V-186-PSA-10-16981"
+        }
+      ]
+    },
+    {
+      "certId": "154790134",
+      "name": "2023 #GG69 Full Art/Giratina Vstar PSA 10 Sword and Shield Crown Zenith",
+      "grade": "PSA 10",
+      "appraisal": {
+        "low": 550.02,
+        "point": 580.0,
+        "high": 609.98
+      },
+      "ggListingsSameGrade": 26,
+      "ggOracleFmvMedian": 707.0,
+      "ggOracleFmvRange": [
+        600.0,
+        792.0
+      ],
+      "ggPlatforms": [
+        "Collector_Crypt",
+        "Courtyard"
+      ],
+      "deltaVsPointPct": 21.9,
+      "withinBand": false,
+      "listings": [
+        {
+          "ggCardId": 798,
+          "platform": "Collector_Crypt",
+          "grade": "PSA 10",
+          "ask": 600.0,
+          "oracleFmv": 600.0,
+          "url": "https://collectorcrypt.com/assets/solana/4pQi11RMMKv85Dko5MRHcBEsEQafaMHwxg4KgAbFd92t"
+        },
+        {
+          "ggCardId": 798,
+          "platform": "Collector_Crypt",
+          "grade": "PSA 10",
+          "ask": 575.0,
+          "oracleFmv": 600.0,
+          "url": "https://collectorcrypt.com/assets/solana/CgcVYhqLijhJ761fGM88Ehye9RHbv1PrGYNZJdFddzq6"
+        },
+        {
+          "ggCardId": 798,
+          "platform": "Collector_Crypt",
+          "grade": "PSA GEM-MT 10",
+          "ask": 570.0,
+          "oracleFmv": 634.0,
+          "url": "https://collectorcrypt.com/assets/solana/6VDzEFhFn3xAttdTp9VgNkyFGFoWtNskeGE1dwSsKTVS"
+        },
+        {
+          "ggCardId": 798,
+          "platform": "Collector_Crypt",
+          "grade": "PSA 10",
+          "ask": 660.0,
+          "oracleFmv": 700.0,
+          "url": "https://collectorcrypt.com/assets/solana/FNMC3UrctoL98PbhaCuzMgs1F9Uce4XS7J3HLWvjka9S"
+        },
+        {
+          "ggCardId": 798,
+          "platform": "Collector_Crypt",
+          "grade": "PSA GEM-MT 10",
+          "ask": 2200.0,
+          "oracleFmv": 710.0,
+          "url": "https://collectorcrypt.com/assets/solana/4KMAr2KWfxj4dQnaWVCi8pg3deAXpniJ2SxUYARLCN9C"
+        },
+        {
+          "ggCardId": 798,
+          "platform": "Collector_Crypt",
+          "grade": "PSA GEM-MT 10",
+          "ask": 725.0,
+          "oracleFmv": 731.0,
+          "url": "https://collectorcrypt.com/assets/solana/8FRUbLmw6G7dDm7AFH6cEqwsUd911MCc17ejNXt11QNk"
+        },
+        {
+          "ggCardId": 798,
+          "platform": "Collector_Crypt",
+          "grade": "PSA 10",
+          "ask": 540.0,
+          "oracleFmv": 700.0,
+          "url": "https://collectorcrypt.com/assets/solana/3hNEoSfEkqY1B9QM19M9fnbcKQN1HZ9zCZV89aVZfq69"
+        },
+        {
+          "ggCardId": 798,
+          "platform": "Collector_Crypt",
+          "grade": "PSA 10",
+          "ask": 680.0,
+          "oracleFmv": 650.0,
+          "url": "https://collectorcrypt.com/assets/solana/CgcVYhqLijhJ761fGM88Ehye9RHbv1PrGYNZJdFddzq6"
+        },
+        {
+          "ggCardId": 2638,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 620.0,
+          "oracleFmv": 653.4,
+          "url": "https://courtyard.io/asset/f1411cae8f2db23dae51a314338f8c7955e7df98c34c98fb19ab6f16c0d31758"
+        },
+        {
+          "ggCardId": 2638,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 619.0,
+          "oracleFmv": 653.3,
+          "url": "https://courtyard.io/asset/7fdab84549cdb4c4ac491ce5de0ef14620bff0beb08f297736d5102d8d0edc0d"
+        },
+        {
+          "ggCardId": 2638,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 675.0,
+          "oracleFmv": 674.9,
+          "url": "https://courtyard.io/asset/8608865665e621c4c422d0a4b8080cc479d4d554b1248341f9c45cc592dbd6a3"
+        },
+        {
+          "ggCardId": 2638,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 649.0,
+          "oracleFmv": 704.0,
+          "url": "https://courtyard.io/asset/21be6ea2673bf06f43bfaedf17d3f1221d056d30e79ed3a85e85a69339f427b2"
+        },
+        {
+          "ggCardId": 2638,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 679.0,
+          "oracleFmv": 720.0,
+          "url": "https://courtyard.io/asset/4a7fb03098f371ea48c5f7ac23560675f2f03c0793d6ccc93d712cd9c3ba9595"
+        },
+        {
+          "ggCardId": 2638,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 930.0,
+          "oracleFmv": 746.0,
+          "url": "https://courtyard.io/asset/46cf98b7862f8beccfc7750137049d9fb6474a7df647fb742f052147b441c019"
+        },
+        {
+          "ggCardId": 2638,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 669.0,
+          "oracleFmv": 729.0,
+          "url": "https://courtyard.io/asset/a14062341851a57664333e7efdf1814cfa44761dd035ba05cc67af46da4d90f2"
+        },
+        {
+          "ggCardId": 2638,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 699.0,
+          "oracleFmv": 740.0,
+          "url": "https://courtyard.io/asset/edfc965a71b6fc6153f7b20264fde66fb07d685e6a6c48ae35c1ec923f739306"
+        },
+        {
+          "ggCardId": 2638,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 725.0,
+          "oracleFmv": 756.0,
+          "url": "https://courtyard.io/asset/7d5f52d0b9f860eef91708fce39bbd00d4bac966cb3e579549d1750add2432a0"
+        },
+        {
+          "ggCardId": 2638,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 785.0,
+          "oracleFmv": 777.0,
+          "url": "https://courtyard.io/asset/d1938e4be3955d865e5767addc903b9f4bd6c94288c3679117614bce9fcc5766"
+        },
+        {
+          "ggCardId": 2638,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 777.0,
+          "oracleFmv": 777.0,
+          "url": "https://courtyard.io/asset/9366bc299ab406b6309d3965fa87f019d52d6c2bd3e736b6543f66e4c2d397ec"
+        },
+        {
+          "ggCardId": 2638,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 750.0,
+          "oracleFmv": 781.0,
+          "url": "https://courtyard.io/asset/129d0531c3da276ebcbeb23b77d9a416f8247c4e80fa25f7090cf3a8c0bd383e"
+        },
+        {
+          "ggCardId": 2638,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 725.0,
+          "oracleFmv": 785.0,
+          "url": "https://courtyard.io/asset/1a5ab2752b1cff9bd48cc901c3a65d5b281ee86c2bcb377533631fc6f42903b4"
+        },
+        {
+          "ggCardId": 2638,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 750.0,
+          "oracleFmv": 792.0,
+          "url": "https://courtyard.io/asset/85c51982ec5da5c5e97ba2a1750b5e1641b51147d897c6bcb1d8f37fca461c74"
+        },
+        {
+          "ggCardId": 2638,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 725.0,
+          "oracleFmv": 781.0,
+          "url": "https://courtyard.io/asset/e9eb0ed294c0addcf6af8fe5b8eaec5d078196baa340524d36b8b3d8fe7c69b2"
+        },
+        {
+          "ggCardId": 2638,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 629.99,
+          "oracleFmv": 667.0,
+          "url": "https://courtyard.io/asset/7fdab84549cdb4c4ac491ce5de0ef14620bff0beb08f297736d5102d8d0edc0d"
+        },
+        {
+          "ggCardId": 2638,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 592.2,
+          "oracleFmv": 658.0,
+          "url": "https://courtyard.io/asset/72dde45715a191782f7fc39e1502dc84a96418ed7d42df969dfc927eb05233b5"
+        },
+        {
+          "ggCardId": 16085,
+          "platform": "Collector_Crypt",
+          "grade": "PSA 10",
+          "ask": 749.0,
+          "oracleFmv": 700.0,
+          "url": "https://collectorcrypt.com/assets/solana/EFYiG5P49hQRCPJ85FtBa2yxj5WbtjxrxPxWVtjFixKm"
+        }
+      ]
+    },
+    {
+      "certId": "153708045",
+      "name": "2022 #TG20 Full Art/Rayquaza Vmax PSA 10 Sword & Shield Silver Tempest",
+      "grade": "PSA 10",
+      "appraisal": {
+        "low": 375.02,
+        "point": 395.0,
+        "high": 414.98
+      },
+      "ggListingsSameGrade": 6,
+      "ggOracleFmvMedian": 500.15,
+      "ggOracleFmvRange": [
+        422.0,
+        525.0
+      ],
+      "ggPlatforms": [
+        "Courtyard"
+      ],
+      "deltaVsPointPct": 26.6,
+      "withinBand": false,
+      "listings": [
+        {
+          "ggCardId": 3492,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 600.0,
+          "oracleFmv": 422.0,
+          "url": "https://courtyard.io/asset/af559f3aad1d942e55b59c1d6e3202c18d327327ec71f9afacdf18ed134480d2"
+        },
+        {
+          "ggCardId": 3492,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 465.0,
+          "oracleFmv": 486.0,
+          "url": "https://courtyard.io/asset/c49600ebe7be6cd4374a2a5b58ff1b87bc82a45896f3bb3bc29de30dc10227fb"
+        },
+        {
+          "ggCardId": 3492,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 463.0,
+          "oracleFmv": 514.3,
+          "url": "https://courtyard.io/asset/72e540c8ae10620a692e43d1de05b135812511fab567c57e10c8bf22d83e599d"
+        },
+        {
+          "ggCardId": 3492,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 550.0,
+          "oracleFmv": 476.0,
+          "url": "https://courtyard.io/asset/9a01e70721f5ad912e7eab3bd714022bf97b3666951a278b34ff9b286064b3b0"
+        },
+        {
+          "ggCardId": 3492,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 469.0,
+          "oracleFmv": 525.0,
+          "url": "https://courtyard.io/asset/fcd48b8198387aa9038dce03063435a0c7a9938ce37a71baaccfedd142da17da"
+        },
+        {
+          "ggCardId": 3492,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 500.0,
+          "oracleFmv": 524.0,
+          "url": "https://courtyard.io/asset/981a54219bb1b3d47ac3d9a6bc70f97f1d8e42a373a19bdfe9af9b5c81249564"
+        }
+      ]
+    },
+    {
+      "certId": "111992917",
+      "name": "2022 #TG23 Full Art/Umbreon Vmax PSA 10 Sword & Shield Brilliant Stars",
+      "grade": "PSA 10",
+      "appraisal": {
+        "low": 262.53,
+        "point": 272.5,
+        "high": 282.47
+      },
+      "ggListingsSameGrade": 13,
+      "ggOracleFmvMedian": 285.0,
+      "ggOracleFmvRange": [
+        250.0,
+        302.0
+      ],
+      "ggPlatforms": [
+        "Collector_Crypt",
+        "Courtyard"
+      ],
+      "deltaVsPointPct": 4.6,
+      "withinBand": false,
+      "listings": [
+        {
+          "ggCardId": 11822,
+          "platform": "Collector_Crypt",
+          "grade": "PSA 10",
+          "ask": 299.0,
+          "oracleFmv": 250.0,
+          "url": "https://collectorcrypt.com/assets/solana/7iYZJ6aMRwqdZchqouzNPXtfpqPLVefzWLcA1cFkaFhk"
+        },
+        {
+          "ggCardId": 11822,
+          "platform": "Collector_Crypt",
+          "grade": "PSA 10",
+          "ask": 259.0,
+          "oracleFmv": 250.0,
+          "url": "https://collectorcrypt.com/assets/solana/5n2rs3dESrrLqXSq2UPdckHxoxR2TjFSMAdq8WccjHdo"
+        },
+        {
+          "ggCardId": 11822,
+          "platform": "Collector_Crypt",
+          "grade": "PSA GEM-MT 10",
+          "ask": 290.0,
+          "oracleFmv": 300.0,
+          "url": "https://collectorcrypt.com/assets/solana/59A8qqTzj6QTe4MCxBPYRRnfjLvn1XaeCRBcd8GKx3y5"
+        },
+        {
+          "ggCardId": 11822,
+          "platform": "Collector_Crypt",
+          "grade": "PSA GEM-MT 10",
+          "ask": 300.0,
+          "oracleFmv": 300.0,
+          "url": "https://collectorcrypt.com/assets/solana/31AnzNB2UfzknEBhm85ye9FbZ61F62wJLXnTYNL8yXeF"
+        },
+        {
+          "ggCardId": 2419,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 300.0,
+          "oracleFmv": 266.0,
+          "url": "https://courtyard.io/asset/d3a235e86e6ede00fa65f41eb33ed8a41e99a3f67574d36cf26edf0143640087"
+        },
+        {
+          "ggCardId": 2419,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 500.0,
+          "oracleFmv": 284.0,
+          "url": "https://courtyard.io/asset/89020b4bc12378f5b9305c67cd417ce93a0bca1bc8b9100630648c16eb77a79e"
+        },
+        {
+          "ggCardId": 2419,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 259.0,
+          "oracleFmv": 283.0,
+          "url": "https://courtyard.io/asset/898b97cae8ea7d19ae526e114f55fb73826ac70b56aa47e58a0164c244e06665"
+        },
+        {
+          "ggCardId": 2419,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 285.0,
+          "oracleFmv": 285.0,
+          "url": "https://courtyard.io/asset/f82aadcc64939fe72f928d48b425358fff074dc8d0d370a052faee6a0959e83b"
+        },
+        {
+          "ggCardId": 2419,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 281.0,
+          "oracleFmv": 284.0,
+          "url": "https://courtyard.io/asset/8c795f4b7031072c1c5e088b1899f9f86e3c3d9dbbdb2b614e4e5f6e41f547f0"
+        },
+        {
+          "ggCardId": 2419,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 450.0,
+          "oracleFmv": 302.0,
+          "url": "https://courtyard.io/asset/7d9ee70671538d0a383c415c9b804712a6c176ee17e062d6ef1b1b36ebd07678"
+        },
+        {
+          "ggCardId": 2419,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 280.0,
+          "oracleFmv": 294.0,
+          "url": "https://courtyard.io/asset/19520ad5239eacf87bab850a32a508f6c734611a29ef78d778fc9ff0d4b3ad8a"
+        },
+        {
+          "ggCardId": 2419,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 300.0,
+          "oracleFmv": 294.0,
+          "url": "https://courtyard.io/asset/7e083608d55418b41951105fadab6b4ae719e06f128d9ff5bf2302f989dcd17f"
+        },
+        {
+          "ggCardId": 2419,
+          "platform": "Courtyard",
+          "grade": "PSA 10",
+          "ask": 280.0,
+          "oracleFmv": 291.0,
+          "url": "https://courtyard.io/asset/823e02456d72557f33a4214acace772577a7945e48888e01fbb3604f096709be"
+        }
+      ]
+    }
+  ]
+}
