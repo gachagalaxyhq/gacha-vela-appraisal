@@ -15,6 +15,33 @@ Built for the Arbitrum Open House Singapore Buildathon.
 **6 price certificates published** for real vaulted PSA 10 slabs.
 **Live borrow:** PSA 10 Rayquaza VMAX (cert 109308847) deposited, **$1,000 borrowed** against a $1,293 limit set by its certificate. [Borrow transaction](https://explorer.testnet.chain.robinhood.com/tx/0xd8910a2a6e58f3a9ecd2c15c7535fc2d63e79d09a951058524f4f4471c019491)
 
+## Architecture: two layers, one product
+```
+  PRIVACY LAYER (Horizen Vela TEE)                    LENDING LAYER (Robinhood Chain)
+  ──────────────────────────────────                  ─────────────────────────────────────
+  private dealer / marketplace comps  ─┐
+  Gacha Galaxy scoring model          ─┼─► attested   AppraisalRegistry  (price certificate)
+  (never leave the enclave)           ─┘   appraisal          │  read by
+                                              │               ▼
+                                     bridge/vela_to_registry.py   CardLendingVault ──► borrow tUSD
+                                     (publishes as attester)       against a GradedCard token
+```
+- **Privacy layer**: computes the fair-value band, confidence, eligibility and LTV. Raw comps stay private.
+- **Lending layer**: stores the certificate onchain and lends against it.
+- **Bridge**: `../bridge/vela_to_registry.py` takes Vela's public attested `appraisal` event and publishes it to the registry. **Tested live:** [first bridge publish tx](https://explorer.testnet.chain.robinhood.com/tx/0x5bcddb7f009a8459531a2cfec2916390bf3f89a87a886eceaab158e34a140c94)
+- The two layers are loosely coupled: the registry accepts certificates from any address holding `ATTESTER_ROLE` (today the Gacha Galaxy deployer; production: the Vela enclave's attestation key / a multisig).
+
+### Verified end to end (2026-09-23)
+| Check | Result |
+|---|---|
+| Vela engine unit tests (`go test ./app/...`) | ✅ 7/7 pass, incl. `TestCompsNeverLeakInPublicEvents` |
+| Enclave WASM build (`make build`, TinyGo 0.39) | ✅ `build/gacha_appraisal.wasm` (1.2 MB) |
+| WASM end-to-end in Wasmtime (`go test .`) | ✅ deploy → submit_comps → appraise → pledge → assess |
+| Vela engine vs pricing model, all 6 slabs | ✅ 6/6 identical (band, confidence, tier, LTV) |
+| **Real Vela output → bridge → Robinhood Chain** | ✅ [publish tx](https://explorer.testnet.chain.robinhood.com/tx/0xdf53ee76f0d8288d56aed73ed9e379f6ca9a7e4fb33d8f441fd704bad9c854ca); vault reads it, $1,293 limit |
+
+Reproduce: `(cd .. && go run ./cmd/vela2rh -cert 109308847 2>/dev/null | grep '^{' > onchain/a.json) && python3 ../bridge/vela_to_registry.py a.json --grader PSA --registry <REGISTRY> --send`
+
 ## The problem
 Graded cards are a fast-growing real-world asset, and platforms such as Collector Crypt, Courtyard and Beezie already tokenize vaulted slabs. **You can't borrow against them**, because lenders have no trusted, neutral price. Appraisals today are manual, slow and based on trust.
 
@@ -44,6 +71,14 @@ The Gacha Galaxy appraisal model: take the median, drop anything more than 60% a
 | Umbreon VMAX TG23, Brilliant Stars | 111992917 | 27 | $249 – $301 | $125 |
 
 > **Price basis:** oracle fair values, insured values and live asks. These are **not completed sales**. Next step: add graded sold comps (eBay PSA sales).
+
+## Repo layout (this repo)
+```
+onchain/src test script   Robinhood Chain contracts (Foundry)   <- you are here
+onchain/data/             pricing scripts (Gacha Galaxy oracle + Collector Crypt)
+bridge/                   Vela appraisal -> AppraisalRegistry publisher
+(repo root)               confidential appraisal engine (Horizen Vela WASM app)
+```
 
 ## Run it
 ```bash
