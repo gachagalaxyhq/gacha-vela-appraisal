@@ -1,0 +1,785 @@
+{
+  "source": "Collector Crypt public marketplace API (api.collectorcrypt.com/marketplace)",
+  "priceBasis": "insured valuations + live asking prices of other vaulted slabs of the same item and grade; NOT completed sales",
+  "pulledAt": "2026-09-23T06:26:29+00:00",
+  "scoring": {
+    "MaxDevBps": 6000,
+    "ConfReal": 70,
+    "ConfModest": 40,
+    "MinEligible": 40,
+    "MinComps": 3,
+    "LtvA": 5000,
+    "LtvB": 3500,
+    "LtvC": 2000
+  },
+  "cards": [
+    {
+      "name": "2021 #218 Full Art/Rayquaza Vmax PSA 10 Sword & Shield Evolving Skies",
+      "grader": "PSA",
+      "certId": "109308847",
+      "grade": "GEM-MT 10",
+      "subjectNft": "93Lq9xx4u63b87wnNkvSPhaZd2TQH6UqiEk2TvTx9nYV",
+      "subjectInsuredUsd": 2900.0,
+      "subjectAskUsd": null,
+      "solscan": "https://solscan.io/address/93Lq9xx4u63b87wnNkvSPhaZd2TQH6UqiEk2TvTx9nYV",
+      "slabsFound": 16,
+      "comps": [
+        {
+          "kind": "insured_value",
+          "cents": 255000,
+          "cert": "127471770",
+          "nft": "zJsToLkJsNzhqPnWWEaEGsGc9qM3fBqGvBUAWVhpDvn"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 256000,
+          "cert": "85494570",
+          "nft": "6f7JkqUFPakJ4RCVYahg2Kv1CNzYF8duLq3xN2ZrkV76"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 256000,
+          "cert": "71394137",
+          "nft": "8CE685daoHDsWXpCks4ZyKdusQQT9MMrzPzBBPHefZvB"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 262500,
+          "cert": "121306985",
+          "nft": "22C1qVPGXCzcTfx3xYjidQj8m8WBYxh179oHu3uUn1hc"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 290000,
+          "cert": "102946149",
+          "nft": "68ajoByGsFtXPphzMmiTojRdU56uaRgZvE84jD2hgL7H"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 290000,
+          "cert": "110497413",
+          "nft": "HCgzcWBq1QFBVwkMuLzx5VKi9sM1Skf19FTvHVvpJSY9"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 290000,
+          "cert": "143035283",
+          "nft": "2a3oJcrbxFnFUUsFXvABmaWUqBgo58z1jD925UNeuD1L"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 290000,
+          "cert": "66057779",
+          "nft": "AeuBNfcTPKZqxe6VPHSWZ4p64dmphheCWgTr8qvitpuT"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 290000,
+          "cert": "99650290",
+          "nft": "C3NKs1PyfCXS9hZRP7Tzi5fdfRBnM9zYNRP7b57vfhM7"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 290000,
+          "cert": "76258951",
+          "nft": "ESvhQtEVjpuQxWMySGo1JXEKuj3sS2JVuqtTXtRkbhwV"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 290000,
+          "cert": "107946182",
+          "nft": "AygQKhtcZFMSERjpX8rVyJKr9pmQcHB7FpRww24yXUix"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 290000,
+          "cert": "95206387",
+          "nft": "H4SCYDBMdr6RcWYEvfvMJCMQCA4enktfWKHfanfhDEyx"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 290000,
+          "cert": "68183766",
+          "nft": "2rgoG4tY3yyBJ5tNeZyZ72dMvuT7ocW59EQdxGmuBSA2"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 290000,
+          "cert": "135489534",
+          "nft": "DDKGN24yT6pigBYwe4uprZsr4kBB9szByFKqVZcpfq4t"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 290000,
+          "cert": "64796057",
+          "nft": "C4wbxRo1fHX5KHPcKvidzg5Dt2BR1KeGSnq1hSzM473B"
+        }
+      ],
+      "appraisal": {
+        "compCount": 15,
+        "sanityRejected": false,
+        "rejectedCount": 0,
+        "fmvLow": 272513,
+        "fmvPoint": 290000,
+        "fmvHigh": 307487,
+        "spreadBps": 1206,
+        "keptCount": 15,
+        "confidenceScore": 92,
+        "confidenceTier": "REAL",
+        "eligible": true,
+        "riskTier": "A",
+        "ltvBps": 5000
+      }
+    },
+    {
+      "name": "2019 #SM168 Full Art/Pikachu & Zekrom GX PSA 10 SM Black Star Promo",
+      "grader": "PSA",
+      "certId": "118973623",
+      "grade": "GEM-MT 10",
+      "subjectNft": "2BWnVaox8J6WH3abVNyASgyxA54pHREwB28gL8hm3cuT",
+      "subjectInsuredUsd": 3200.0,
+      "subjectAskUsd": null,
+      "solscan": "https://solscan.io/address/2BWnVaox8J6WH3abVNyASgyxA54pHREwB28gL8hm3cuT",
+      "slabsFound": 16,
+      "comps": [
+        {
+          "kind": "insured_value",
+          "cents": 255000,
+          "cert": "121541380",
+          "nft": "DvyGjQCWybeThL2NkXK7rD66nfVkVorSnDeCWpZXcc3t"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 255000,
+          "cert": "121774059",
+          "nft": "8c2ZdtZpLK8pZsbq3eY3CKBsLQhk3nZW2gTnJDkMZZhm"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 320000,
+          "cert": "91256279",
+          "nft": "AqSDJpi5mivQBH7fLznmDbBxNDNz3ncWSdF3fEwqzJKL"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 320000,
+          "cert": "165353285",
+          "nft": "7MqVQpmJj4Z64GbGVpxpctaQDXM4od46TZLsChetNyu1"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 320000,
+          "cert": "125204762",
+          "nft": "9eVb8Z3JViAu3g2aDG1TKdNpFVxYWk7rSJWLr7JLQ3P9"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 320000,
+          "cert": "144245879",
+          "nft": "CraTEMEhwm3jFFmzDWLorqqnoKrBwUFhoRpcq1JWkGpq"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 320000,
+          "cert": "162429317",
+          "nft": "8yYNSpKztcZhQ7jfyjJRq8uftaFzWUHnDsHYubr7SaTg"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 320000,
+          "cert": "152738208",
+          "nft": "GBRDmzNyprbasfnUnhy7FpWWMdZzAXmYjqnd8MZ7zjWE"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 320000,
+          "cert": "147664866",
+          "nft": "2b41tXpGRAcXnz5RyQiLQhUPVuhALQJ3pNv27qZbhkgd"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 320000,
+          "cert": "115498129",
+          "nft": "Fj7VtzzKTpcjXDCQkYEuvZHR7xsq7JG9XsGgsEUJXyd6"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 320000,
+          "cert": "126012541",
+          "nft": "APLs3yFHZJtUceafLnWr4jncTdRdDLSs2nYEezhgboss"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 320000,
+          "cert": "135617226",
+          "nft": "2mcgw729D2jNsGAqG846jNAR2rKtsAB3vgTAtBPAXiYQ"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 320000,
+          "cert": "79356160",
+          "nft": "7Lcn1JR3imvBXDhS3TDmJxtzsNg4W3msQEWNkapypmUP"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 320000,
+          "cert": "125449223",
+          "nft": "GEtvdR7kuSUdRSVDyAqGcScqAt4J4LoSRJL3hDk5fv84"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 320000,
+          "cert": "121043612",
+          "nft": "AZKm39wpwgyVqRJXwBUxLsJLgGFw9uNdvu5X457Ed47w"
+        }
+      ],
+      "appraisal": {
+        "compCount": 15,
+        "sanityRejected": false,
+        "rejectedCount": 0,
+        "fmvLow": 287520,
+        "fmvPoint": 320000,
+        "fmvHigh": 352480,
+        "spreadBps": 2031,
+        "keptCount": 15,
+        "confidenceScore": 87,
+        "confidenceTier": "REAL",
+        "eligible": true,
+        "riskTier": "A",
+        "ltvBps": 5000
+      }
+    },
+    {
+      "name": "2022 #186 Full Art/Lugia V PSA 10 Sword & Shield Silver Tempest",
+      "grader": "PSA",
+      "certId": "100863346",
+      "grade": "GEM-MT 10",
+      "subjectNft": "4zvTP5bthEu5ouxUuYgjzijmh2reSUgtWFKswXjbTDrM",
+      "subjectInsuredUsd": 1331.0,
+      "subjectAskUsd": null,
+      "solscan": "https://solscan.io/address/4zvTP5bthEu5ouxUuYgjzijmh2reSUgtWFKswXjbTDrM",
+      "slabsFound": 13,
+      "comps": [
+        {
+          "kind": "insured_value",
+          "cents": 125000,
+          "cert": "70345063",
+          "nft": "7sr2gJENNBuRLBKJPhEoELr9kwQ7MFD7ucC9RFD8rxba"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 128000,
+          "cert": "72577330",
+          "nft": "B5yP2Mqdhz1ifztkbeMyovJHMLcZntRBKgT6iU5LJigr"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 128000,
+          "cert": "104882290",
+          "nft": "EAyLZ9o95aXyXQudR1vZd8D5PcLxAPvBZwLC4MvMpd83"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 133100,
+          "cert": "150637265",
+          "nft": "Grf3rnhLbyWFESa7hgD3S3zkuiAJRt2NA5XPs1VjbEiK"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 133100,
+          "cert": "151717500",
+          "nft": "JCCWaoPVKKVdDoLobySg4KRURS2FCfjJNZivCzqa86br"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 133100,
+          "cert": "106205684",
+          "nft": "9c2E6Upp7dUzUhFkqi6Pq9fnHCJByXux9TbHesqx7pAt"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 133100,
+          "cert": "69361350",
+          "nft": "AxnoUE1zLcrFMs1YdvoHtNJMHDQise6JenHrHpXXEYHE"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 133100,
+          "cert": "138039957",
+          "nft": "FeeSJdZG6gmoFMyirPL9LrStU6CX8uxnzXdzb3Qzbv1H"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 133100,
+          "cert": "99720713",
+          "nft": "FK4hChMLCAvaL8RSeBDkFds7vLJV8R9ENMhTXXrmmLkc"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 133100,
+          "cert": "93491339",
+          "nft": "8tDAxM1c6BQtZPbhysdYn3pJ7BYLWp6Q2Yz6seE4grBb"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 135000,
+          "cert": "104155141",
+          "nft": "vPkvCV8RaPZRXHc7Z47HGr4h5czSoMRJGiAVePbhiiV"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 137500,
+          "cert": "162009031",
+          "nft": "Cfxn9gURYjBHZNQ7onrqDjwYkyASj5HbLTpLugA5qGDF"
+        }
+      ],
+      "appraisal": {
+        "compCount": 12,
+        "sanityRejected": false,
+        "rejectedCount": 0,
+        "fmvLow": 126858,
+        "fmvPoint": 133100,
+        "fmvHigh": 139342,
+        "spreadBps": 939,
+        "keptCount": 12,
+        "confidenceScore": 94,
+        "confidenceTier": "REAL",
+        "eligible": true,
+        "riskTier": "A",
+        "ltvBps": 5000
+      }
+    },
+    {
+      "name": "2023 #GG69 Full Art/Giratina Vstar PSA 10 Sword and Shield Crown Zenith",
+      "grader": "PSA",
+      "certId": "154790134",
+      "grade": "GEM-MT 10",
+      "subjectNft": "kSvLNfUkeTSnS9peDQwgtbM2sqCctnjtv5XTFJexDb5",
+      "subjectInsuredUsd": 580.0,
+      "subjectAskUsd": null,
+      "solscan": "https://solscan.io/address/kSvLNfUkeTSnS9peDQwgtbM2sqCctnjtv5XTFJexDb5",
+      "slabsFound": 20,
+      "comps": [
+        {
+          "kind": "insured_value",
+          "cents": 54000,
+          "cert": "95954920",
+          "nft": "7j2Q9AWSsJ9j9cMjSxL38dHo9ZWrkZxwfwhHqUJDb5yq"
+        },
+        {
+          "kind": "live_ask",
+          "cents": 600000,
+          "cert": "95954920",
+          "nft": "7j2Q9AWSsJ9j9cMjSxL38dHo9ZWrkZxwfwhHqUJDb5yq"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 54000,
+          "cert": "99856375",
+          "nft": "4KMAr2KWfxj4dQnaWVCi8pg3deAXpniJ2SxUYARLCN9C"
+        },
+        {
+          "kind": "live_ask",
+          "cents": 220000,
+          "cert": "99856375",
+          "nft": "4KMAr2KWfxj4dQnaWVCi8pg3deAXpniJ2SxUYARLCN9C"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 54000,
+          "cert": "101118092",
+          "nft": "DFKoeoxFnEwT9c1zjxoEV171ts8pSAc8pmpWiq79kx7Q"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 54000,
+          "cert": "107989162",
+          "nft": "DgqoDmyGr7Zo9eK3XxEBnUHkp4LTSakqRPmQG34XMJpX"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 58000,
+          "cert": "153415149",
+          "nft": "4JdoBTxKg51C6HvxAjt79MqZpnaNxXe45NCatWMeNkY8"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 58000,
+          "cert": "83401112",
+          "nft": "48qGNxsJgwo8MuNTxn4cvhyUQEC1NRzeTNtCE45QqyuE"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 58000,
+          "cert": "125490483",
+          "nft": "6tiLQU3dbZa6rFpmSzFLUyLRw9ogzbgiys9jX1Ym1Chc"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 58000,
+          "cert": "100700097",
+          "nft": "8Xy2ERmzGydbZjtrnoZCCMKHn3sFTLgFXyyVSrbFUxyW"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 58000,
+          "cert": "72142103",
+          "nft": "AH4N2w1KMRvKeHaHxqEiN8r24WDmmGZpBy4C5Ruj1Kg"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 58000,
+          "cert": "108987933",
+          "nft": "Fz1NgceorsNgMfeXEyRv12Wd7ejaUJ28JKDFp3eEuypj"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 58000,
+          "cert": "140187651",
+          "nft": "5zJMkUnhEhezvhrKnmkeGw743Y59im3R2ApSUERHbnsd"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 58000,
+          "cert": "97561268",
+          "nft": "6YweMszGRodbqn1Fjg7ZACKHxiitxTsYVReDyRN7iAkF"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 59000,
+          "cert": "125869420",
+          "nft": "8MLYssfTyNuXQrLmJfHrjwihfEHRVuZ4ohgQBRVLuDCJ"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 60000,
+          "cert": "107234316",
+          "nft": "2aSFfFrrWMy2HZ7LTThdacUnD3f7u4T6eGZ3UjUC4BCw"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 60000,
+          "cert": "131744897",
+          "nft": "5bWCucXwjTBDaidzYWbmofJWAfTg2r9udE8Xt4gRv4sn"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 60000,
+          "cert": "136798277",
+          "nft": "4RVARtEFBxBsF9CPdELuosmsrVazfKXwTM8Z6kH991HB"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 60000,
+          "cert": "132347591",
+          "nft": "6VDzEFhFn3xAttdTp9VgNkyFGFoWtNskeGE1dwSsKTVS"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 60000,
+          "cert": "88716818",
+          "nft": "CPHiCWY6yz5LJCj8KcHRckJdf1bsNxRXMmQudabGfsJa"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 60000,
+          "cert": "104014733",
+          "nft": "5beSRRrZ4AaoJ7w38pdnuPJSHdDGRQmmj6Pi1Ahq6cmU"
+        }
+      ],
+      "appraisal": {
+        "compCount": 21,
+        "sanityRejected": true,
+        "rejectedCount": 2,
+        "fmvLow": 55002,
+        "fmvPoint": 58000,
+        "fmvHigh": 60998,
+        "spreadBps": 1034,
+        "keptCount": 19,
+        "confidenceScore": 94,
+        "confidenceTier": "REAL",
+        "eligible": true,
+        "riskTier": "A",
+        "ltvBps": 5000
+      }
+    },
+    {
+      "name": "2022 #TG20 Full Art/Rayquaza Vmax PSA 10 Sword & Shield Silver Tempest",
+      "grader": "PSA",
+      "certId": "153708045",
+      "grade": "GEM-MT 10",
+      "subjectNft": "E1WjZYUo54Kr8Tmz8Mddxda6oQhVZWnQ1ciYhF6poKYi",
+      "subjectInsuredUsd": 400.0,
+      "subjectAskUsd": null,
+      "solscan": "https://solscan.io/address/E1WjZYUo54Kr8Tmz8Mddxda6oQhVZWnQ1ciYhF6poKYi",
+      "slabsFound": 24,
+      "comps": [
+        {
+          "kind": "insured_value",
+          "cents": 38500,
+          "cert": "98778449",
+          "nft": "EVfjG6iGwr2sQTocFLm94cmVRfMjGZ8UdoQkYuAuBqqz"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 38500,
+          "cert": "97420499",
+          "nft": "6eAAPn8NsF441aVG4NggoiYdBiyGtU5p5Dov4NzSASN6"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 38500,
+          "cert": "150447851",
+          "nft": "BxRRFen9h1qP9GZgsjk6QoGEphhf7LQrCJwRyzZBaJdz"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 38500,
+          "cert": "142167397",
+          "nft": "BMtXE2YNb82RorSvkP39WtaszFwnw5pzE44kGkxLU6dN"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 38500,
+          "cert": "117427540",
+          "nft": "5SMLyNqrJBPUVoSdMfAdvXeEffertFLXwX52n4beDYy6"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 38500,
+          "cert": "110022417",
+          "nft": "2MwgGyq8CeDiNkucyp7DVKJtP4nN4LVdPrjgMjLieewm"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 38500,
+          "cert": "104848268",
+          "nft": "F2Td2eDGULtuu5ciVP8j99QojC5uEeFk9zZJ94hXCEre"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 38500,
+          "cert": "119712445",
+          "nft": "Y1FLgutTfsrEpCXg5cbz6MqiU7HmCsjKTmwcULQ5vsG"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 38500,
+          "cert": "108626115",
+          "nft": "Do58y4UA4WqjtpJrh2AFfDpSw1ujfg5sRHCKFUxKrmRp"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 38500,
+          "cert": "94737284",
+          "nft": "HDtYt1m2apuTLoNGgMNd79WWd6HLV3QCfEB6m71ZSQvy"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 38500,
+          "cert": "130766492",
+          "nft": "3YvyYpdqubmhKynRLqCXHMhjxsGAC9pgKNKHJwzvrENc"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 39500,
+          "cert": "164575523",
+          "nft": "6LoCnhrJmJ5b9o8nvNFQtJeq8dP6CoJw5qJQa8YCXX53"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 40000,
+          "cert": "168973214",
+          "nft": "8jFTLjsRR54GxijPS7npsj4NgzsojKLX8aZjnbLey45G"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 40000,
+          "cert": "170853117",
+          "nft": "EiPWiC6cDnpqihkZH98CF5AGAv1skhrF7GbjgsEJcZpo"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 41000,
+          "cert": "136388711",
+          "nft": "6zduUGWFjJsxUdfGKNGnnxKPa4pa68mGPMd3GEd2iF8Q"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 41500,
+          "cert": "136951409",
+          "nft": "9zXS8yfWWYwJXCwAtvfHRKVtf5T7iSfz7b96npBmevx6"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 42500,
+          "cert": "70691805",
+          "nft": "FfxtiZdWSxCggQgxKxpLMJU55qWi1tUs8QnSshW8mz9C"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 42500,
+          "cert": "164446941",
+          "nft": "AJnTf9dmvJtwddL3st3EsusuSMMQwmwnnLBzueNija28"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 42500,
+          "cert": "164446940",
+          "nft": "FYYkrmq3gCbQHY3m8VugqKWqesZHcgvQGgWcftzh4WSh"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 42500,
+          "cert": "145055047",
+          "nft": "8A3J9xPgy3MHGWmsKm8XRAzbcCRkxtT2ho23M3fSmZ23"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 42500,
+          "cert": "94906532",
+          "nft": "DNjnTEoeWWLMnofbiUhCDGhD4er1U297EiJfdbexyoNE"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 42500,
+          "cert": "99720702",
+          "nft": "AQW9QxfTM7g86ub3nLeXgaBMU7FmFY8s7GwVCefDkvvU"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 42500,
+          "cert": "99221336",
+          "nft": "2pwYe6wm5yTVA2U79BKVPgHYEJ6Sq3ESXQo4s7G5scoS"
+        }
+      ],
+      "appraisal": {
+        "compCount": 23,
+        "sanityRejected": false,
+        "rejectedCount": 0,
+        "fmvLow": 37502,
+        "fmvPoint": 39500,
+        "fmvHigh": 41498,
+        "spreadBps": 1012,
+        "keptCount": 23,
+        "confidenceScore": 94,
+        "confidenceTier": "REAL",
+        "eligible": true,
+        "riskTier": "A",
+        "ltvBps": 5000
+      }
+    },
+    {
+      "name": "2022 #TG23 Full Art/Umbreon Vmax PSA 10 Sword & Shield Brilliant Stars",
+      "grader": "PSA",
+      "certId": "111992917",
+      "grade": "GEM-MT 10",
+      "subjectNft": "EHSB8Y4mUepqFNWWDsvz4UzE4GGx9WpjRKD5ou31vJKQ",
+      "subjectInsuredUsd": 270.0,
+      "subjectAskUsd": null,
+      "solscan": "https://solscan.io/address/EHSB8Y4mUepqFNWWDsvz4UzE4GGx9WpjRKD5ou31vJKQ",
+      "slabsFound": 15,
+      "comps": [
+        {
+          "kind": "insured_value",
+          "cents": 25500,
+          "cert": "117034760",
+          "nft": "DXygK1QVimjRfYxUyDNieSipYi14U3V82fZrFGG26Mdz"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 25500,
+          "cert": "108708978",
+          "nft": "7F48tKzWwUw9UFroVe9ZZUsai1mVx8usNkso1UfMfbe5"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 26000,
+          "cert": "166680443",
+          "nft": "5bknCoP1m5MvsBdQ5xokgPeK7nXH8rnWaLLQibHjqjei"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 26000,
+          "cert": "158848131",
+          "nft": "3BJjU3qCN9FdEb4zFywWeRvPGwN9KgdwFV1sAFfb9k7e"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 26300,
+          "cert": "134420035",
+          "nft": "59A8qqTzj6QTe4MCxBPYRRnfjLvn1XaeCRBcd8GKx3y5"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 26500,
+          "cert": "105134888",
+          "nft": "9tVwvu4rLfF4yx6kFDpUmeWf5FzUo7c8eBYShgo1WETS"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 27000,
+          "cert": "118649872",
+          "nft": "5X1aYbgJfGaa967JhLh4Z6c8EaCrW2ZrNzteqj5N4xJq"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 27500,
+          "cert": "94979296",
+          "nft": "8CyxbtwPtJ9Lmo9DWmZVUcdjB7J5EpPdyCa4SnWQhpkG"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 27500,
+          "cert": "126376143",
+          "nft": "J8L1b2LPMshvGcSGUZ9NQo5QHViFCLHeyEcDDS9TSCrf"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 27500,
+          "cert": "102218003",
+          "nft": "E73PPhk5PpxJASN49nsD7WSXTACZwF3VGDXtRhdKt8g5"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 27500,
+          "cert": "115049855",
+          "nft": "GyAFGzebb7wzDBSEfjRknnyxQcuNRCqaVhvhXTnrtuQx"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 27500,
+          "cert": "106456670",
+          "nft": "HYJns6Uqg4PSBMGnRxQ9eEvgZuNznRVfF9o1EQVotcrK"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 27500,
+          "cert": "127122262",
+          "nft": "GjgEbCj5FzyUpGkNgFszX4v3HacJS2CuS6JK4KtTaN9S"
+        },
+        {
+          "kind": "insured_value",
+          "cents": 27500,
+          "cert": "166605243",
+          "nft": "AWZrfkQUpN5M1vswAWWuzA8YL9ySx4fAwoG4frvP2ovp"
+        }
+      ],
+      "appraisal": {
+        "compCount": 14,
+        "sanityRejected": false,
+        "rejectedCount": 0,
+        "fmvLow": 26253,
+        "fmvPoint": 27250,
+        "fmvHigh": 28247,
+        "spreadBps": 733,
+        "keptCount": 14,
+        "confidenceScore": 96,
+        "confidenceTier": "REAL",
+        "eligible": true,
+        "riskTier": "A",
+        "ltvBps": 5000
+      }
+    }
+  ]
+}
