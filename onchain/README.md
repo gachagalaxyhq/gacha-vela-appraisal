@@ -25,7 +25,9 @@ Open House Singapore Buildathon build. Target: **Robinhood Chain testnet (chain 
 ## Run it
 ```bash
 curl -L https://foundry.paradigm.xyz | bash && foundryup
-cd onchain && forge test                       # 13 tests incl. fuzz
+cd onchain
+forge install foundry-rs/forge-std OpenZeppelin/openzeppelin-contracts@v5.1.0 --no-git   # deps (not in zip)
+forge test                                     # 13 tests incl. fuzz
 cp .env.example .env                           # add PRIVATE_KEY (testnet-only wallet!)
 source .env
 # 1. testnet ETH: https://faucet.testnet.chain.robinhood.com
