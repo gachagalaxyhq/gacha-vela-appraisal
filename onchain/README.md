@@ -2,6 +2,16 @@
 
 Open House Singapore Buildathon build. Target: **Robinhood Chain testnet (chain ID 46630)**.
 
+## ✅ Live on Robinhood Chain testnet (46630), all contracts verified
+| Contract | Address |
+|---|---|
+| AppraisalRegistry | [0x30dfBCA3978CE186e6107A93cedC7d2971d30950](https://explorer.testnet.chain.robinhood.com/address/0x30dfBCA3978CE186e6107A93cedC7d2971d30950) |
+| GradedCard | [0x2Ca223844D4D118Ee92509C6c4dbD81Cb5Be1CC8](https://explorer.testnet.chain.robinhood.com/address/0x2Ca223844D4D118Ee92509C6c4dbD81Cb5Be1CC8) |
+| TestUSD | [0x7e7f329325eAD4EC00807F08c5DC528cafeD77e1](https://explorer.testnet.chain.robinhood.com/address/0x7e7f329325eAD4EC00807F08c5DC528cafeD77e1) |
+| CardLendingVault | [0xa9B03F4cB087d4D08d96E8e06887e362daE36400](https://explorer.testnet.chain.robinhood.com/address/0xa9B03F4cB087d4D08d96E8e06887e362daE36400) |
+
+6 certificates published (blended Gacha Galaxy oracle + Collector Crypt comps). Live borrow: PSA 10 Rayquaza VMAX (cert 109308847) deposited, **$1,000 tUSD borrowed** against a $1,293 limit. [Borrow tx](https://explorer.testnet.chain.robinhood.com/tx/0xd8910a2a6e58f3a9ecd2c15c7535fc2d63e79d09a951058524f4f4471c019491)
+
 ## What it does
 1. **AppraisalRegistry** stores a *price certificate* for a real graded slab (grader + cert number): fair-value band, confidence, risk tier and max loan-to-value. Only an authorised attester (Gacha Galaxy) can publish.
 2. **GradedCard** is a testnet ERC-721 standing in for a tokenized, vaulted slab.

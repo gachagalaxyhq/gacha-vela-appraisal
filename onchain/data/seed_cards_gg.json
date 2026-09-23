@@ -1,0 +1,593 @@
+{
+  "source": "Gacha Galaxy oracle (gachagalaxy.io/app) \u2014 same-grade live listings; subject slabs from Collector Crypt public API",
+  "priceBasis": "Gacha Galaxy oracle fair values of live same-grade listings; NOT completed sales",
+  "pulledAt": "2026-09-23T07:13:21+00:00",
+  "scoring": {
+    "MaxDevBps": 6000,
+    "ConfReal": 70,
+    "ConfModest": 40,
+    "MinEligible": 40,
+    "MinComps": 3,
+    "LtvA": 5000,
+    "LtvB": 3500,
+    "LtvC": 2000
+  },
+  "cards": [
+    {
+      "name": "2021 #218 Full Art/Rayquaza Vmax PSA 10 Sword & Shield Evolving Skies",
+      "grader": "PSA",
+      "certId": "109308847",
+      "grade": "GEM-MT 10",
+      "subjectNft": "93Lq9xx4u63b87wnNkvSPhaZd2TQH6UqiEk2TvTx9nYV",
+      "solscan": "https://solscan.io/address/93Lq9xx4u63b87wnNkvSPhaZd2TQH6UqiEk2TvTx9nYV",
+      "priceSource": "gacha_galaxy_oracle",
+      "comps": [
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 266830,
+          "askCents": 260000,
+          "platform": "Courtyard",
+          "ggCardId": 8922,
+          "url": "https://courtyard.io/asset/7785a9291381bdce1208d1d84c55e44c1f6633a7aa91236436778a04d88c969c"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 292100,
+          "askCents": 287256,
+          "platform": "Courtyard",
+          "ggCardId": 8922,
+          "url": "https://courtyard.io/asset/72e1749ce8559ee3874f251f543e3fc3f96da760a442d177428557d4bab575f8"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 305500,
+          "askCents": 290000,
+          "platform": "Courtyard",
+          "ggCardId": 8922,
+          "url": "https://courtyard.io/asset/68cf9972492cefbf9b403571c732b053568ffa921a16f4ca258c8a716c352f07"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 317700,
+          "askCents": 269900,
+          "platform": "Courtyard",
+          "ggCardId": 8922,
+          "url": "https://courtyard.io/asset/1d2cf4d0efaedb80aa0c8c065b5982adacb8155d2e83f852f988653c92b7262f"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 276600,
+          "askCents": 260000,
+          "platform": "Courtyard",
+          "ggCardId": 8922,
+          "url": "https://courtyard.io/asset/cd6a2b34ed12a08cf2258658e2fdf1f22302e5fa3a579eda77d760267c2e8bb0"
+        }
+      ],
+      "appraisal": {
+        "compCount": 5,
+        "keptCount": 5,
+        "rejectedCount": 0,
+        "fmvLow": 266688,
+        "fmvPoint": 292100,
+        "fmvHigh": 317512,
+        "spreadBps": 1741,
+        "confidenceScore": 74,
+        "confidenceTier": "REAL",
+        "eligible": true,
+        "riskTier": "A",
+        "ltvBps": 5000
+      },
+      "crossCheck": {
+        "source": "collector_crypt",
+        "fmvLow": 272513,
+        "fmvPoint": 290000,
+        "fmvHigh": 307487,
+        "gapPct": 0.7
+      }
+    },
+    {
+      "name": "2022 #186 Full Art/Lugia V PSA 10 Sword & Shield Silver Tempest",
+      "grader": "PSA",
+      "certId": "100863346",
+      "grade": "GEM-MT 10",
+      "subjectNft": "4zvTP5bthEu5ouxUuYgjzijmh2reSUgtWFKswXjbTDrM",
+      "solscan": "https://solscan.io/address/4zvTP5bthEu5ouxUuYgjzijmh2reSUgtWFKswXjbTDrM",
+      "priceSource": "gacha_galaxy_oracle",
+      "comps": [
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 133100,
+          "askCents": 129900,
+          "platform": "Collector_Crypt",
+          "ggCardId": 6906,
+          "url": "https://collectorcrypt.com/assets/solana/4rT6vJaW5eYfkobPouW8QnuJf4nxiroTFTpv1XrMfH4R"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 148100,
+          "askCents": 169900,
+          "platform": "Beezie",
+          "ggCardId": 6906,
+          "url": "https://beezie.com/marketplace/collectible/2022-Silver-Tempest-Lugia-V-186-PSA-10-16981"
+        }
+      ],
+      "appraisal": {
+        "compCount": 2,
+        "keptCount": 2,
+        "rejectedCount": 0,
+        "fmvLow": 133107,
+        "fmvPoint": 140600,
+        "fmvHigh": 148093,
+        "spreadBps": 1066,
+        "confidenceScore": 48,
+        "confidenceTier": "MODEST",
+        "eligible": false,
+        "riskTier": "REJECT",
+        "ltvBps": 0
+      },
+      "crossCheck": {
+        "source": "collector_crypt",
+        "fmvLow": 126858,
+        "fmvPoint": 133100,
+        "fmvHigh": 139342,
+        "gapPct": 5.6
+      }
+    },
+    {
+      "name": "2023 #GG69 Full Art/Giratina Vstar PSA 10 Sword and Shield Crown Zenith",
+      "grader": "PSA",
+      "certId": "154790134",
+      "grade": "GEM-MT 10",
+      "subjectNft": "kSvLNfUkeTSnS9peDQwgtbM2sqCctnjtv5XTFJexDb5",
+      "solscan": "https://solscan.io/address/kSvLNfUkeTSnS9peDQwgtbM2sqCctnjtv5XTFJexDb5",
+      "priceSource": "gacha_galaxy_oracle",
+      "comps": [
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 60000,
+          "askCents": 60000,
+          "platform": "Collector_Crypt",
+          "ggCardId": 798,
+          "url": "https://collectorcrypt.com/assets/solana/4pQi11RMMKv85Dko5MRHcBEsEQafaMHwxg4KgAbFd92t"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 60000,
+          "askCents": 57500,
+          "platform": "Collector_Crypt",
+          "ggCardId": 798,
+          "url": "https://collectorcrypt.com/assets/solana/CgcVYhqLijhJ761fGM88Ehye9RHbv1PrGYNZJdFddzq6"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 63400,
+          "askCents": 57000,
+          "platform": "Collector_Crypt",
+          "ggCardId": 798,
+          "url": "https://collectorcrypt.com/assets/solana/6VDzEFhFn3xAttdTp9VgNkyFGFoWtNskeGE1dwSsKTVS"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 70000,
+          "askCents": 66000,
+          "platform": "Collector_Crypt",
+          "ggCardId": 798,
+          "url": "https://collectorcrypt.com/assets/solana/FNMC3UrctoL98PbhaCuzMgs1F9Uce4XS7J3HLWvjka9S"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 71000,
+          "askCents": 220000,
+          "platform": "Collector_Crypt",
+          "ggCardId": 798,
+          "url": "https://collectorcrypt.com/assets/solana/4KMAr2KWfxj4dQnaWVCi8pg3deAXpniJ2SxUYARLCN9C"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 73100,
+          "askCents": 72500,
+          "platform": "Collector_Crypt",
+          "ggCardId": 798,
+          "url": "https://collectorcrypt.com/assets/solana/8FRUbLmw6G7dDm7AFH6cEqwsUd911MCc17ejNXt11QNk"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 70000,
+          "askCents": 54000,
+          "platform": "Collector_Crypt",
+          "ggCardId": 798,
+          "url": "https://collectorcrypt.com/assets/solana/3hNEoSfEkqY1B9QM19M9fnbcKQN1HZ9zCZV89aVZfq69"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 65000,
+          "askCents": 68000,
+          "platform": "Collector_Crypt",
+          "ggCardId": 798,
+          "url": "https://collectorcrypt.com/assets/solana/CgcVYhqLijhJ761fGM88Ehye9RHbv1PrGYNZJdFddzq6"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 65340,
+          "askCents": 62000,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/f1411cae8f2db23dae51a314338f8c7955e7df98c34c98fb19ab6f16c0d31758"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 65330,
+          "askCents": 61900,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/7fdab84549cdb4c4ac491ce5de0ef14620bff0beb08f297736d5102d8d0edc0d"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 67490,
+          "askCents": 67500,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/8608865665e621c4c422d0a4b8080cc479d4d554b1248341f9c45cc592dbd6a3"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 70400,
+          "askCents": 64900,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/21be6ea2673bf06f43bfaedf17d3f1221d056d30e79ed3a85e85a69339f427b2"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 72000,
+          "askCents": 67900,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/4a7fb03098f371ea48c5f7ac23560675f2f03c0793d6ccc93d712cd9c3ba9595"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 74600,
+          "askCents": 93000,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/46cf98b7862f8beccfc7750137049d9fb6474a7df647fb742f052147b441c019"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 72900,
+          "askCents": 66900,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/a14062341851a57664333e7efdf1814cfa44761dd035ba05cc67af46da4d90f2"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 74000,
+          "askCents": 69900,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/edfc965a71b6fc6153f7b20264fde66fb07d685e6a6c48ae35c1ec923f739306"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 75600,
+          "askCents": 72500,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/7d5f52d0b9f860eef91708fce39bbd00d4bac966cb3e579549d1750add2432a0"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 77700,
+          "askCents": 78500,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/d1938e4be3955d865e5767addc903b9f4bd6c94288c3679117614bce9fcc5766"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 77700,
+          "askCents": 77700,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/9366bc299ab406b6309d3965fa87f019d52d6c2bd3e736b6543f66e4c2d397ec"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 78100,
+          "askCents": 75000,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/129d0531c3da276ebcbeb23b77d9a416f8247c4e80fa25f7090cf3a8c0bd383e"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 78500,
+          "askCents": 72500,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/1a5ab2752b1cff9bd48cc901c3a65d5b281ee86c2bcb377533631fc6f42903b4"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 79200,
+          "askCents": 75000,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/85c51982ec5da5c5e97ba2a1750b5e1641b51147d897c6bcb1d8f37fca461c74"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 78100,
+          "askCents": 72500,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/e9eb0ed294c0addcf6af8fe5b8eaec5d078196baa340524d36b8b3d8fe7c69b2"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 66700,
+          "askCents": 62999,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/7fdab84549cdb4c4ac491ce5de0ef14620bff0beb08f297736d5102d8d0edc0d"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 65800,
+          "askCents": 59220,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/72dde45715a191782f7fc39e1502dc84a96418ed7d42df969dfc927eb05233b5"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 70000,
+          "askCents": 74900,
+          "platform": "Collector_Crypt",
+          "ggCardId": 16085,
+          "url": "https://collectorcrypt.com/assets/solana/EFYiG5P49hQRCPJ85FtBa2yxj5WbtjxrxPxWVtjFixKm"
+        }
+      ],
+      "appraisal": {
+        "compCount": 26,
+        "keptCount": 26,
+        "rejectedCount": 0,
+        "fmvLow": 61107,
+        "fmvPoint": 70700,
+        "fmvHigh": 80293,
+        "spreadBps": 2715,
+        "confidenceScore": 82,
+        "confidenceTier": "REAL",
+        "eligible": true,
+        "riskTier": "A",
+        "ltvBps": 5000
+      },
+      "crossCheck": {
+        "source": "collector_crypt",
+        "fmvLow": 55002,
+        "fmvPoint": 58000,
+        "fmvHigh": 60998,
+        "gapPct": 21.9
+      }
+    },
+    {
+      "name": "2022 #TG20 Full Art/Rayquaza Vmax PSA 10 Sword & Shield Silver Tempest",
+      "grader": "PSA",
+      "certId": "153708045",
+      "grade": "GEM-MT 10",
+      "subjectNft": "E1WjZYUo54Kr8Tmz8Mddxda6oQhVZWnQ1ciYhF6poKYi",
+      "solscan": "https://solscan.io/address/E1WjZYUo54Kr8Tmz8Mddxda6oQhVZWnQ1ciYhF6poKYi",
+      "priceSource": "gacha_galaxy_oracle",
+      "comps": [
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 42200,
+          "askCents": 60000,
+          "platform": "Courtyard",
+          "ggCardId": 3492,
+          "url": "https://courtyard.io/asset/af559f3aad1d942e55b59c1d6e3202c18d327327ec71f9afacdf18ed134480d2"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 48600,
+          "askCents": 46500,
+          "platform": "Courtyard",
+          "ggCardId": 3492,
+          "url": "https://courtyard.io/asset/c49600ebe7be6cd4374a2a5b58ff1b87bc82a45896f3bb3bc29de30dc10227fb"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 51430,
+          "askCents": 46300,
+          "platform": "Courtyard",
+          "ggCardId": 3492,
+          "url": "https://courtyard.io/asset/72e540c8ae10620a692e43d1de05b135812511fab567c57e10c8bf22d83e599d"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 47600,
+          "askCents": 55000,
+          "platform": "Courtyard",
+          "ggCardId": 3492,
+          "url": "https://courtyard.io/asset/9a01e70721f5ad912e7eab3bd714022bf97b3666951a278b34ff9b286064b3b0"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 52500,
+          "askCents": 46900,
+          "platform": "Courtyard",
+          "ggCardId": 3492,
+          "url": "https://courtyard.io/asset/fcd48b8198387aa9038dce03063435a0c7a9938ce37a71baaccfedd142da17da"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 52400,
+          "askCents": 50000,
+          "platform": "Courtyard",
+          "ggCardId": 3492,
+          "url": "https://courtyard.io/asset/981a54219bb1b3d47ac3d9a6bc70f97f1d8e42a373a19bdfe9af9b5c81249564"
+        }
+      ],
+      "appraisal": {
+        "compCount": 6,
+        "keptCount": 6,
+        "rejectedCount": 0,
+        "fmvLow": 44869,
+        "fmvPoint": 50015,
+        "fmvHigh": 55161,
+        "spreadBps": 2059,
+        "confidenceScore": 72,
+        "confidenceTier": "REAL",
+        "eligible": true,
+        "riskTier": "A",
+        "ltvBps": 5000
+      },
+      "crossCheck": {
+        "source": "collector_crypt",
+        "fmvLow": 37502,
+        "fmvPoint": 39500,
+        "fmvHigh": 41498,
+        "gapPct": 26.6
+      }
+    },
+    {
+      "name": "2022 #TG23 Full Art/Umbreon Vmax PSA 10 Sword & Shield Brilliant Stars",
+      "grader": "PSA",
+      "certId": "111992917",
+      "grade": "GEM-MT 10",
+      "subjectNft": "EHSB8Y4mUepqFNWWDsvz4UzE4GGx9WpjRKD5ou31vJKQ",
+      "solscan": "https://solscan.io/address/EHSB8Y4mUepqFNWWDsvz4UzE4GGx9WpjRKD5ou31vJKQ",
+      "priceSource": "gacha_galaxy_oracle",
+      "comps": [
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 25000,
+          "askCents": 29900,
+          "platform": "Collector_Crypt",
+          "ggCardId": 11822,
+          "url": "https://collectorcrypt.com/assets/solana/7iYZJ6aMRwqdZchqouzNPXtfpqPLVefzWLcA1cFkaFhk"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 25000,
+          "askCents": 25900,
+          "platform": "Collector_Crypt",
+          "ggCardId": 11822,
+          "url": "https://collectorcrypt.com/assets/solana/5n2rs3dESrrLqXSq2UPdckHxoxR2TjFSMAdq8WccjHdo"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 30000,
+          "askCents": 29000,
+          "platform": "Collector_Crypt",
+          "ggCardId": 11822,
+          "url": "https://collectorcrypt.com/assets/solana/59A8qqTzj6QTe4MCxBPYRRnfjLvn1XaeCRBcd8GKx3y5"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 30000,
+          "askCents": 30000,
+          "platform": "Collector_Crypt",
+          "ggCardId": 11822,
+          "url": "https://collectorcrypt.com/assets/solana/31AnzNB2UfzknEBhm85ye9FbZ61F62wJLXnTYNL8yXeF"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 26600,
+          "askCents": 30000,
+          "platform": "Courtyard",
+          "ggCardId": 2419,
+          "url": "https://courtyard.io/asset/d3a235e86e6ede00fa65f41eb33ed8a41e99a3f67574d36cf26edf0143640087"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 28400,
+          "askCents": 50000,
+          "platform": "Courtyard",
+          "ggCardId": 2419,
+          "url": "https://courtyard.io/asset/89020b4bc12378f5b9305c67cd417ce93a0bca1bc8b9100630648c16eb77a79e"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 28300,
+          "askCents": 25900,
+          "platform": "Courtyard",
+          "ggCardId": 2419,
+          "url": "https://courtyard.io/asset/898b97cae8ea7d19ae526e114f55fb73826ac70b56aa47e58a0164c244e06665"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 28500,
+          "askCents": 28500,
+          "platform": "Courtyard",
+          "ggCardId": 2419,
+          "url": "https://courtyard.io/asset/f82aadcc64939fe72f928d48b425358fff074dc8d0d370a052faee6a0959e83b"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 28400,
+          "askCents": 28100,
+          "platform": "Courtyard",
+          "ggCardId": 2419,
+          "url": "https://courtyard.io/asset/8c795f4b7031072c1c5e088b1899f9f86e3c3d9dbbdb2b614e4e5f6e41f547f0"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 30200,
+          "askCents": 45000,
+          "platform": "Courtyard",
+          "ggCardId": 2419,
+          "url": "https://courtyard.io/asset/7d9ee70671538d0a383c415c9b804712a6c176ee17e062d6ef1b1b36ebd07678"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 29400,
+          "askCents": 28000,
+          "platform": "Courtyard",
+          "ggCardId": 2419,
+          "url": "https://courtyard.io/asset/19520ad5239eacf87bab850a32a508f6c734611a29ef78d778fc9ff0d4b3ad8a"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 29400,
+          "askCents": 30000,
+          "platform": "Courtyard",
+          "ggCardId": 2419,
+          "url": "https://courtyard.io/asset/7e083608d55418b41951105fadab6b4ae719e06f128d9ff5bf2302f989dcd17f"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 29100,
+          "askCents": 28000,
+          "platform": "Courtyard",
+          "ggCardId": 2419,
+          "url": "https://courtyard.io/asset/823e02456d72557f33a4214acace772577a7945e48888e01fbb3604f096709be"
+        }
+      ],
+      "appraisal": {
+        "compCount": 13,
+        "keptCount": 13,
+        "rejectedCount": 0,
+        "fmvLow": 25901,
+        "fmvPoint": 28500,
+        "fmvHigh": 31099,
+        "spreadBps": 1824,
+        "confidenceScore": 88,
+        "confidenceTier": "REAL",
+        "eligible": true,
+        "riskTier": "A",
+        "ltvBps": 5000
+      },
+      "crossCheck": {
+        "source": "collector_crypt",
+        "fmvLow": 26253,
+        "fmvPoint": 27250,
+        "fmvHigh": 28247,
+        "gapPct": 4.6
+      }
+    }
+  ]
+}

@@ -3,3 +3,5 @@ cache/
 broadcast/
 .env
 deployments/31337.json
+
+!deployments/46630.json

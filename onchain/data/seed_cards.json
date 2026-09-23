@@ -1,7 +1,7 @@
 {
-  "source": "Collector Crypt public marketplace API (api.collectorcrypt.com/marketplace)",
-  "priceBasis": "insured valuations + live asking prices of other vaulted slabs of the same item and grade; NOT completed sales",
-  "pulledAt": "2026-09-23T06:26:29+00:00",
+  "source": "BLEND: Gacha Galaxy oracle + Collector Crypt public API (PokeTrace pending key)",
+  "priceBasis": "oracle fair values, insured values and live asks of same-grade slabs; NOT completed sales",
+  "pulledAt": "2026-09-23T07:13:39+00:00",
   "scoring": {
     "MaxDevBps": 6000,
     "ConfReal": 70,
@@ -19,112 +19,173 @@
       "certId": "109308847",
       "grade": "GEM-MT 10",
       "subjectNft": "93Lq9xx4u63b87wnNkvSPhaZd2TQH6UqiEk2TvTx9nYV",
-      "subjectInsuredUsd": 2900.0,
-      "subjectAskUsd": null,
       "solscan": "https://solscan.io/address/93Lq9xx4u63b87wnNkvSPhaZd2TQH6UqiEk2TvTx9nYV",
-      "slabsFound": 16,
+      "sources": {
+        "collector_crypt": 15,
+        "gacha_galaxy": 5,
+        "poketrace": 0
+      },
       "comps": [
         {
           "kind": "insured_value",
           "cents": 255000,
           "cert": "127471770",
-          "nft": "zJsToLkJsNzhqPnWWEaEGsGc9qM3fBqGvBUAWVhpDvn"
+          "nft": "zJsToLkJsNzhqPnWWEaEGsGc9qM3fBqGvBUAWVhpDvn",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 256000,
           "cert": "85494570",
-          "nft": "6f7JkqUFPakJ4RCVYahg2Kv1CNzYF8duLq3xN2ZrkV76"
+          "nft": "6f7JkqUFPakJ4RCVYahg2Kv1CNzYF8duLq3xN2ZrkV76",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 256000,
           "cert": "71394137",
-          "nft": "8CE685daoHDsWXpCks4ZyKdusQQT9MMrzPzBBPHefZvB"
+          "nft": "8CE685daoHDsWXpCks4ZyKdusQQT9MMrzPzBBPHefZvB",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 262500,
           "cert": "121306985",
-          "nft": "22C1qVPGXCzcTfx3xYjidQj8m8WBYxh179oHu3uUn1hc"
+          "nft": "22C1qVPGXCzcTfx3xYjidQj8m8WBYxh179oHu3uUn1hc",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 290000,
           "cert": "102946149",
-          "nft": "68ajoByGsFtXPphzMmiTojRdU56uaRgZvE84jD2hgL7H"
+          "nft": "68ajoByGsFtXPphzMmiTojRdU56uaRgZvE84jD2hgL7H",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 290000,
           "cert": "110497413",
-          "nft": "HCgzcWBq1QFBVwkMuLzx5VKi9sM1Skf19FTvHVvpJSY9"
+          "nft": "HCgzcWBq1QFBVwkMuLzx5VKi9sM1Skf19FTvHVvpJSY9",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 290000,
           "cert": "143035283",
-          "nft": "2a3oJcrbxFnFUUsFXvABmaWUqBgo58z1jD925UNeuD1L"
+          "nft": "2a3oJcrbxFnFUUsFXvABmaWUqBgo58z1jD925UNeuD1L",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 290000,
           "cert": "66057779",
-          "nft": "AeuBNfcTPKZqxe6VPHSWZ4p64dmphheCWgTr8qvitpuT"
+          "nft": "AeuBNfcTPKZqxe6VPHSWZ4p64dmphheCWgTr8qvitpuT",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 290000,
           "cert": "99650290",
-          "nft": "C3NKs1PyfCXS9hZRP7Tzi5fdfRBnM9zYNRP7b57vfhM7"
+          "nft": "C3NKs1PyfCXS9hZRP7Tzi5fdfRBnM9zYNRP7b57vfhM7",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 290000,
           "cert": "76258951",
-          "nft": "ESvhQtEVjpuQxWMySGo1JXEKuj3sS2JVuqtTXtRkbhwV"
+          "nft": "ESvhQtEVjpuQxWMySGo1JXEKuj3sS2JVuqtTXtRkbhwV",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 290000,
           "cert": "107946182",
-          "nft": "AygQKhtcZFMSERjpX8rVyJKr9pmQcHB7FpRww24yXUix"
+          "nft": "AygQKhtcZFMSERjpX8rVyJKr9pmQcHB7FpRww24yXUix",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 290000,
           "cert": "95206387",
-          "nft": "H4SCYDBMdr6RcWYEvfvMJCMQCA4enktfWKHfanfhDEyx"
+          "nft": "H4SCYDBMdr6RcWYEvfvMJCMQCA4enktfWKHfanfhDEyx",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 290000,
           "cert": "68183766",
-          "nft": "2rgoG4tY3yyBJ5tNeZyZ72dMvuT7ocW59EQdxGmuBSA2"
+          "nft": "2rgoG4tY3yyBJ5tNeZyZ72dMvuT7ocW59EQdxGmuBSA2",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 290000,
           "cert": "135489534",
-          "nft": "DDKGN24yT6pigBYwe4uprZsr4kBB9szByFKqVZcpfq4t"
+          "nft": "DDKGN24yT6pigBYwe4uprZsr4kBB9szByFKqVZcpfq4t",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 290000,
           "cert": "64796057",
-          "nft": "C4wbxRo1fHX5KHPcKvidzg5Dt2BR1KeGSnq1hSzM473B"
+          "nft": "C4wbxRo1fHX5KHPcKvidzg5Dt2BR1KeGSnq1hSzM473B",
+          "source": "collector_crypt"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 266830,
+          "askCents": 260000,
+          "platform": "Courtyard",
+          "ggCardId": 8922,
+          "url": "https://courtyard.io/asset/7785a9291381bdce1208d1d84c55e44c1f6633a7aa91236436778a04d88c969c",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 292100,
+          "askCents": 287256,
+          "platform": "Courtyard",
+          "ggCardId": 8922,
+          "url": "https://courtyard.io/asset/72e1749ce8559ee3874f251f543e3fc3f96da760a442d177428557d4bab575f8",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 305500,
+          "askCents": 290000,
+          "platform": "Courtyard",
+          "ggCardId": 8922,
+          "url": "https://courtyard.io/asset/68cf9972492cefbf9b403571c732b053568ffa921a16f4ca258c8a716c352f07",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 317700,
+          "askCents": 269900,
+          "platform": "Courtyard",
+          "ggCardId": 8922,
+          "url": "https://courtyard.io/asset/1d2cf4d0efaedb80aa0c8c065b5982adacb8155d2e83f852f988653c92b7262f",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 276600,
+          "askCents": 260000,
+          "platform": "Courtyard",
+          "ggCardId": 8922,
+          "url": "https://courtyard.io/asset/cd6a2b34ed12a08cf2258658e2fdf1f22302e5fa3a579eda77d760267c2e8bb0",
+          "source": "gacha_galaxy"
         }
       ],
       "appraisal": {
-        "compCount": 15,
-        "sanityRejected": false,
+        "compCount": 20,
+        "keptCount": 20,
         "rejectedCount": 0,
-        "fmvLow": 272513,
+        "fmvLow": 258651,
         "fmvPoint": 290000,
-        "fmvHigh": 307487,
-        "spreadBps": 1206,
-        "keptCount": 15,
-        "confidenceScore": 92,
+        "fmvHigh": 321349,
+        "spreadBps": 2162,
+        "confidenceScore": 86,
         "confidenceTier": "REAL",
         "eligible": true,
         "riskTier": "A",
@@ -137,111 +198,127 @@
       "certId": "118973623",
       "grade": "GEM-MT 10",
       "subjectNft": "2BWnVaox8J6WH3abVNyASgyxA54pHREwB28gL8hm3cuT",
-      "subjectInsuredUsd": 3200.0,
-      "subjectAskUsd": null,
       "solscan": "https://solscan.io/address/2BWnVaox8J6WH3abVNyASgyxA54pHREwB28gL8hm3cuT",
-      "slabsFound": 16,
+      "sources": {
+        "collector_crypt": 15,
+        "gacha_galaxy": 0,
+        "poketrace": 0
+      },
       "comps": [
         {
           "kind": "insured_value",
           "cents": 255000,
           "cert": "121541380",
-          "nft": "DvyGjQCWybeThL2NkXK7rD66nfVkVorSnDeCWpZXcc3t"
+          "nft": "DvyGjQCWybeThL2NkXK7rD66nfVkVorSnDeCWpZXcc3t",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 255000,
           "cert": "121774059",
-          "nft": "8c2ZdtZpLK8pZsbq3eY3CKBsLQhk3nZW2gTnJDkMZZhm"
+          "nft": "8c2ZdtZpLK8pZsbq3eY3CKBsLQhk3nZW2gTnJDkMZZhm",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 320000,
           "cert": "91256279",
-          "nft": "AqSDJpi5mivQBH7fLznmDbBxNDNz3ncWSdF3fEwqzJKL"
+          "nft": "AqSDJpi5mivQBH7fLznmDbBxNDNz3ncWSdF3fEwqzJKL",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 320000,
           "cert": "165353285",
-          "nft": "7MqVQpmJj4Z64GbGVpxpctaQDXM4od46TZLsChetNyu1"
+          "nft": "7MqVQpmJj4Z64GbGVpxpctaQDXM4od46TZLsChetNyu1",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 320000,
           "cert": "125204762",
-          "nft": "9eVb8Z3JViAu3g2aDG1TKdNpFVxYWk7rSJWLr7JLQ3P9"
+          "nft": "9eVb8Z3JViAu3g2aDG1TKdNpFVxYWk7rSJWLr7JLQ3P9",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 320000,
           "cert": "144245879",
-          "nft": "CraTEMEhwm3jFFmzDWLorqqnoKrBwUFhoRpcq1JWkGpq"
+          "nft": "CraTEMEhwm3jFFmzDWLorqqnoKrBwUFhoRpcq1JWkGpq",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 320000,
           "cert": "162429317",
-          "nft": "8yYNSpKztcZhQ7jfyjJRq8uftaFzWUHnDsHYubr7SaTg"
+          "nft": "8yYNSpKztcZhQ7jfyjJRq8uftaFzWUHnDsHYubr7SaTg",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 320000,
           "cert": "152738208",
-          "nft": "GBRDmzNyprbasfnUnhy7FpWWMdZzAXmYjqnd8MZ7zjWE"
+          "nft": "GBRDmzNyprbasfnUnhy7FpWWMdZzAXmYjqnd8MZ7zjWE",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 320000,
           "cert": "147664866",
-          "nft": "2b41tXpGRAcXnz5RyQiLQhUPVuhALQJ3pNv27qZbhkgd"
+          "nft": "2b41tXpGRAcXnz5RyQiLQhUPVuhALQJ3pNv27qZbhkgd",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 320000,
           "cert": "115498129",
-          "nft": "Fj7VtzzKTpcjXDCQkYEuvZHR7xsq7JG9XsGgsEUJXyd6"
+          "nft": "Fj7VtzzKTpcjXDCQkYEuvZHR7xsq7JG9XsGgsEUJXyd6",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 320000,
           "cert": "126012541",
-          "nft": "APLs3yFHZJtUceafLnWr4jncTdRdDLSs2nYEezhgboss"
+          "nft": "APLs3yFHZJtUceafLnWr4jncTdRdDLSs2nYEezhgboss",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 320000,
           "cert": "135617226",
-          "nft": "2mcgw729D2jNsGAqG846jNAR2rKtsAB3vgTAtBPAXiYQ"
+          "nft": "2mcgw729D2jNsGAqG846jNAR2rKtsAB3vgTAtBPAXiYQ",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 320000,
           "cert": "79356160",
-          "nft": "7Lcn1JR3imvBXDhS3TDmJxtzsNg4W3msQEWNkapypmUP"
+          "nft": "7Lcn1JR3imvBXDhS3TDmJxtzsNg4W3msQEWNkapypmUP",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 320000,
           "cert": "125449223",
-          "nft": "GEtvdR7kuSUdRSVDyAqGcScqAt4J4LoSRJL3hDk5fv84"
+          "nft": "GEtvdR7kuSUdRSVDyAqGcScqAt4J4LoSRJL3hDk5fv84",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 320000,
           "cert": "121043612",
-          "nft": "AZKm39wpwgyVqRJXwBUxLsJLgGFw9uNdvu5X457Ed47w"
+          "nft": "AZKm39wpwgyVqRJXwBUxLsJLgGFw9uNdvu5X457Ed47w",
+          "source": "collector_crypt"
         }
       ],
       "appraisal": {
         "compCount": 15,
-        "sanityRejected": false,
+        "keptCount": 15,
         "rejectedCount": 0,
         "fmvLow": 287520,
         "fmvPoint": 320000,
         "fmvHigh": 352480,
         "spreadBps": 2031,
-        "keptCount": 15,
         "confidenceScore": 87,
         "confidenceTier": "REAL",
         "eligible": true,
@@ -255,94 +332,125 @@
       "certId": "100863346",
       "grade": "GEM-MT 10",
       "subjectNft": "4zvTP5bthEu5ouxUuYgjzijmh2reSUgtWFKswXjbTDrM",
-      "subjectInsuredUsd": 1331.0,
-      "subjectAskUsd": null,
       "solscan": "https://solscan.io/address/4zvTP5bthEu5ouxUuYgjzijmh2reSUgtWFKswXjbTDrM",
-      "slabsFound": 13,
+      "sources": {
+        "collector_crypt": 12,
+        "gacha_galaxy": 2,
+        "poketrace": 0
+      },
       "comps": [
         {
           "kind": "insured_value",
           "cents": 125000,
           "cert": "70345063",
-          "nft": "7sr2gJENNBuRLBKJPhEoELr9kwQ7MFD7ucC9RFD8rxba"
+          "nft": "7sr2gJENNBuRLBKJPhEoELr9kwQ7MFD7ucC9RFD8rxba",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 128000,
           "cert": "72577330",
-          "nft": "B5yP2Mqdhz1ifztkbeMyovJHMLcZntRBKgT6iU5LJigr"
+          "nft": "B5yP2Mqdhz1ifztkbeMyovJHMLcZntRBKgT6iU5LJigr",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 128000,
           "cert": "104882290",
-          "nft": "EAyLZ9o95aXyXQudR1vZd8D5PcLxAPvBZwLC4MvMpd83"
+          "nft": "EAyLZ9o95aXyXQudR1vZd8D5PcLxAPvBZwLC4MvMpd83",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 133100,
           "cert": "150637265",
-          "nft": "Grf3rnhLbyWFESa7hgD3S3zkuiAJRt2NA5XPs1VjbEiK"
+          "nft": "Grf3rnhLbyWFESa7hgD3S3zkuiAJRt2NA5XPs1VjbEiK",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 133100,
           "cert": "151717500",
-          "nft": "JCCWaoPVKKVdDoLobySg4KRURS2FCfjJNZivCzqa86br"
+          "nft": "JCCWaoPVKKVdDoLobySg4KRURS2FCfjJNZivCzqa86br",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 133100,
           "cert": "106205684",
-          "nft": "9c2E6Upp7dUzUhFkqi6Pq9fnHCJByXux9TbHesqx7pAt"
+          "nft": "9c2E6Upp7dUzUhFkqi6Pq9fnHCJByXux9TbHesqx7pAt",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 133100,
           "cert": "69361350",
-          "nft": "AxnoUE1zLcrFMs1YdvoHtNJMHDQise6JenHrHpXXEYHE"
+          "nft": "AxnoUE1zLcrFMs1YdvoHtNJMHDQise6JenHrHpXXEYHE",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 133100,
           "cert": "138039957",
-          "nft": "FeeSJdZG6gmoFMyirPL9LrStU6CX8uxnzXdzb3Qzbv1H"
+          "nft": "FeeSJdZG6gmoFMyirPL9LrStU6CX8uxnzXdzb3Qzbv1H",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 133100,
           "cert": "99720713",
-          "nft": "FK4hChMLCAvaL8RSeBDkFds7vLJV8R9ENMhTXXrmmLkc"
+          "nft": "FK4hChMLCAvaL8RSeBDkFds7vLJV8R9ENMhTXXrmmLkc",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 133100,
           "cert": "93491339",
-          "nft": "8tDAxM1c6BQtZPbhysdYn3pJ7BYLWp6Q2Yz6seE4grBb"
+          "nft": "8tDAxM1c6BQtZPbhysdYn3pJ7BYLWp6Q2Yz6seE4grBb",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 135000,
           "cert": "104155141",
-          "nft": "vPkvCV8RaPZRXHc7Z47HGr4h5czSoMRJGiAVePbhiiV"
+          "nft": "vPkvCV8RaPZRXHc7Z47HGr4h5czSoMRJGiAVePbhiiV",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 137500,
           "cert": "162009031",
-          "nft": "Cfxn9gURYjBHZNQ7onrqDjwYkyASj5HbLTpLugA5qGDF"
+          "nft": "Cfxn9gURYjBHZNQ7onrqDjwYkyASj5HbLTpLugA5qGDF",
+          "source": "collector_crypt"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 133100,
+          "askCents": 129900,
+          "platform": "Collector_Crypt",
+          "ggCardId": 6906,
+          "url": "https://collectorcrypt.com/assets/solana/4rT6vJaW5eYfkobPouW8QnuJf4nxiroTFTpv1XrMfH4R",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 148100,
+          "askCents": 169900,
+          "platform": "Beezie",
+          "ggCardId": 6906,
+          "url": "https://beezie.com/marketplace/collectible/2022-Silver-Tempest-Lugia-V-186-PSA-10-16981",
+          "source": "gacha_galaxy"
         }
       ],
       "appraisal": {
-        "compCount": 12,
-        "sanityRejected": false,
+        "compCount": 14,
+        "keptCount": 14,
         "rejectedCount": 0,
-        "fmvLow": 126858,
+        "fmvLow": 121561,
         "fmvPoint": 133100,
-        "fmvHigh": 139342,
-        "spreadBps": 939,
-        "keptCount": 12,
-        "confidenceScore": 94,
+        "fmvHigh": 144639,
+        "spreadBps": 1735,
+        "confidenceScore": 89,
         "confidenceTier": "REAL",
         "eligible": true,
         "riskTier": "A",
@@ -355,148 +463,404 @@
       "certId": "154790134",
       "grade": "GEM-MT 10",
       "subjectNft": "kSvLNfUkeTSnS9peDQwgtbM2sqCctnjtv5XTFJexDb5",
-      "subjectInsuredUsd": 580.0,
-      "subjectAskUsd": null,
       "solscan": "https://solscan.io/address/kSvLNfUkeTSnS9peDQwgtbM2sqCctnjtv5XTFJexDb5",
-      "slabsFound": 20,
+      "sources": {
+        "collector_crypt": 21,
+        "gacha_galaxy": 26,
+        "poketrace": 0
+      },
       "comps": [
         {
           "kind": "insured_value",
           "cents": 54000,
           "cert": "95954920",
-          "nft": "7j2Q9AWSsJ9j9cMjSxL38dHo9ZWrkZxwfwhHqUJDb5yq"
+          "nft": "7j2Q9AWSsJ9j9cMjSxL38dHo9ZWrkZxwfwhHqUJDb5yq",
+          "source": "collector_crypt"
         },
         {
           "kind": "live_ask",
           "cents": 600000,
           "cert": "95954920",
-          "nft": "7j2Q9AWSsJ9j9cMjSxL38dHo9ZWrkZxwfwhHqUJDb5yq"
+          "nft": "7j2Q9AWSsJ9j9cMjSxL38dHo9ZWrkZxwfwhHqUJDb5yq",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 54000,
           "cert": "99856375",
-          "nft": "4KMAr2KWfxj4dQnaWVCi8pg3deAXpniJ2SxUYARLCN9C"
+          "nft": "4KMAr2KWfxj4dQnaWVCi8pg3deAXpniJ2SxUYARLCN9C",
+          "source": "collector_crypt"
         },
         {
           "kind": "live_ask",
           "cents": 220000,
           "cert": "99856375",
-          "nft": "4KMAr2KWfxj4dQnaWVCi8pg3deAXpniJ2SxUYARLCN9C"
+          "nft": "4KMAr2KWfxj4dQnaWVCi8pg3deAXpniJ2SxUYARLCN9C",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 54000,
           "cert": "101118092",
-          "nft": "DFKoeoxFnEwT9c1zjxoEV171ts8pSAc8pmpWiq79kx7Q"
+          "nft": "DFKoeoxFnEwT9c1zjxoEV171ts8pSAc8pmpWiq79kx7Q",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 54000,
           "cert": "107989162",
-          "nft": "DgqoDmyGr7Zo9eK3XxEBnUHkp4LTSakqRPmQG34XMJpX"
+          "nft": "DgqoDmyGr7Zo9eK3XxEBnUHkp4LTSakqRPmQG34XMJpX",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 58000,
           "cert": "153415149",
-          "nft": "4JdoBTxKg51C6HvxAjt79MqZpnaNxXe45NCatWMeNkY8"
+          "nft": "4JdoBTxKg51C6HvxAjt79MqZpnaNxXe45NCatWMeNkY8",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 58000,
           "cert": "83401112",
-          "nft": "48qGNxsJgwo8MuNTxn4cvhyUQEC1NRzeTNtCE45QqyuE"
+          "nft": "48qGNxsJgwo8MuNTxn4cvhyUQEC1NRzeTNtCE45QqyuE",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 58000,
           "cert": "125490483",
-          "nft": "6tiLQU3dbZa6rFpmSzFLUyLRw9ogzbgiys9jX1Ym1Chc"
+          "nft": "6tiLQU3dbZa6rFpmSzFLUyLRw9ogzbgiys9jX1Ym1Chc",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 58000,
           "cert": "100700097",
-          "nft": "8Xy2ERmzGydbZjtrnoZCCMKHn3sFTLgFXyyVSrbFUxyW"
+          "nft": "8Xy2ERmzGydbZjtrnoZCCMKHn3sFTLgFXyyVSrbFUxyW",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 58000,
           "cert": "72142103",
-          "nft": "AH4N2w1KMRvKeHaHxqEiN8r24WDmmGZpBy4C5Ruj1Kg"
+          "nft": "AH4N2w1KMRvKeHaHxqEiN8r24WDmmGZpBy4C5Ruj1Kg",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 58000,
           "cert": "108987933",
-          "nft": "Fz1NgceorsNgMfeXEyRv12Wd7ejaUJ28JKDFp3eEuypj"
+          "nft": "Fz1NgceorsNgMfeXEyRv12Wd7ejaUJ28JKDFp3eEuypj",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 58000,
           "cert": "140187651",
-          "nft": "5zJMkUnhEhezvhrKnmkeGw743Y59im3R2ApSUERHbnsd"
+          "nft": "5zJMkUnhEhezvhrKnmkeGw743Y59im3R2ApSUERHbnsd",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 58000,
           "cert": "97561268",
-          "nft": "6YweMszGRodbqn1Fjg7ZACKHxiitxTsYVReDyRN7iAkF"
+          "nft": "6YweMszGRodbqn1Fjg7ZACKHxiitxTsYVReDyRN7iAkF",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 59000,
           "cert": "125869420",
-          "nft": "8MLYssfTyNuXQrLmJfHrjwihfEHRVuZ4ohgQBRVLuDCJ"
+          "nft": "8MLYssfTyNuXQrLmJfHrjwihfEHRVuZ4ohgQBRVLuDCJ",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 60000,
           "cert": "107234316",
-          "nft": "2aSFfFrrWMy2HZ7LTThdacUnD3f7u4T6eGZ3UjUC4BCw"
+          "nft": "2aSFfFrrWMy2HZ7LTThdacUnD3f7u4T6eGZ3UjUC4BCw",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 60000,
           "cert": "131744897",
-          "nft": "5bWCucXwjTBDaidzYWbmofJWAfTg2r9udE8Xt4gRv4sn"
+          "nft": "5bWCucXwjTBDaidzYWbmofJWAfTg2r9udE8Xt4gRv4sn",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 60000,
           "cert": "136798277",
-          "nft": "4RVARtEFBxBsF9CPdELuosmsrVazfKXwTM8Z6kH991HB"
+          "nft": "4RVARtEFBxBsF9CPdELuosmsrVazfKXwTM8Z6kH991HB",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 60000,
           "cert": "132347591",
-          "nft": "6VDzEFhFn3xAttdTp9VgNkyFGFoWtNskeGE1dwSsKTVS"
+          "nft": "6VDzEFhFn3xAttdTp9VgNkyFGFoWtNskeGE1dwSsKTVS",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 60000,
           "cert": "88716818",
-          "nft": "CPHiCWY6yz5LJCj8KcHRckJdf1bsNxRXMmQudabGfsJa"
+          "nft": "CPHiCWY6yz5LJCj8KcHRckJdf1bsNxRXMmQudabGfsJa",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 60000,
           "cert": "104014733",
-          "nft": "5beSRRrZ4AaoJ7w38pdnuPJSHdDGRQmmj6Pi1Ahq6cmU"
+          "nft": "5beSRRrZ4AaoJ7w38pdnuPJSHdDGRQmmj6Pi1Ahq6cmU",
+          "source": "collector_crypt"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 60000,
+          "askCents": 60000,
+          "platform": "Collector_Crypt",
+          "ggCardId": 798,
+          "url": "https://collectorcrypt.com/assets/solana/4pQi11RMMKv85Dko5MRHcBEsEQafaMHwxg4KgAbFd92t",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 60000,
+          "askCents": 57500,
+          "platform": "Collector_Crypt",
+          "ggCardId": 798,
+          "url": "https://collectorcrypt.com/assets/solana/CgcVYhqLijhJ761fGM88Ehye9RHbv1PrGYNZJdFddzq6",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 63400,
+          "askCents": 57000,
+          "platform": "Collector_Crypt",
+          "ggCardId": 798,
+          "url": "https://collectorcrypt.com/assets/solana/6VDzEFhFn3xAttdTp9VgNkyFGFoWtNskeGE1dwSsKTVS",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 70000,
+          "askCents": 66000,
+          "platform": "Collector_Crypt",
+          "ggCardId": 798,
+          "url": "https://collectorcrypt.com/assets/solana/FNMC3UrctoL98PbhaCuzMgs1F9Uce4XS7J3HLWvjka9S",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 71000,
+          "askCents": 220000,
+          "platform": "Collector_Crypt",
+          "ggCardId": 798,
+          "url": "https://collectorcrypt.com/assets/solana/4KMAr2KWfxj4dQnaWVCi8pg3deAXpniJ2SxUYARLCN9C",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 73100,
+          "askCents": 72500,
+          "platform": "Collector_Crypt",
+          "ggCardId": 798,
+          "url": "https://collectorcrypt.com/assets/solana/8FRUbLmw6G7dDm7AFH6cEqwsUd911MCc17ejNXt11QNk",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 70000,
+          "askCents": 54000,
+          "platform": "Collector_Crypt",
+          "ggCardId": 798,
+          "url": "https://collectorcrypt.com/assets/solana/3hNEoSfEkqY1B9QM19M9fnbcKQN1HZ9zCZV89aVZfq69",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 65000,
+          "askCents": 68000,
+          "platform": "Collector_Crypt",
+          "ggCardId": 798,
+          "url": "https://collectorcrypt.com/assets/solana/CgcVYhqLijhJ761fGM88Ehye9RHbv1PrGYNZJdFddzq6",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 65340,
+          "askCents": 62000,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/f1411cae8f2db23dae51a314338f8c7955e7df98c34c98fb19ab6f16c0d31758",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 65330,
+          "askCents": 61900,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/7fdab84549cdb4c4ac491ce5de0ef14620bff0beb08f297736d5102d8d0edc0d",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 67490,
+          "askCents": 67500,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/8608865665e621c4c422d0a4b8080cc479d4d554b1248341f9c45cc592dbd6a3",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 70400,
+          "askCents": 64900,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/21be6ea2673bf06f43bfaedf17d3f1221d056d30e79ed3a85e85a69339f427b2",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 72000,
+          "askCents": 67900,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/4a7fb03098f371ea48c5f7ac23560675f2f03c0793d6ccc93d712cd9c3ba9595",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 74600,
+          "askCents": 93000,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/46cf98b7862f8beccfc7750137049d9fb6474a7df647fb742f052147b441c019",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 72900,
+          "askCents": 66900,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/a14062341851a57664333e7efdf1814cfa44761dd035ba05cc67af46da4d90f2",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 74000,
+          "askCents": 69900,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/edfc965a71b6fc6153f7b20264fde66fb07d685e6a6c48ae35c1ec923f739306",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 75600,
+          "askCents": 72500,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/7d5f52d0b9f860eef91708fce39bbd00d4bac966cb3e579549d1750add2432a0",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 77700,
+          "askCents": 78500,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/d1938e4be3955d865e5767addc903b9f4bd6c94288c3679117614bce9fcc5766",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 77700,
+          "askCents": 77700,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/9366bc299ab406b6309d3965fa87f019d52d6c2bd3e736b6543f66e4c2d397ec",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 78100,
+          "askCents": 75000,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/129d0531c3da276ebcbeb23b77d9a416f8247c4e80fa25f7090cf3a8c0bd383e",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 78500,
+          "askCents": 72500,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/1a5ab2752b1cff9bd48cc901c3a65d5b281ee86c2bcb377533631fc6f42903b4",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 79200,
+          "askCents": 75000,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/85c51982ec5da5c5e97ba2a1750b5e1641b51147d897c6bcb1d8f37fca461c74",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 78100,
+          "askCents": 72500,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/e9eb0ed294c0addcf6af8fe5b8eaec5d078196baa340524d36b8b3d8fe7c69b2",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 66700,
+          "askCents": 62999,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/7fdab84549cdb4c4ac491ce5de0ef14620bff0beb08f297736d5102d8d0edc0d",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 65800,
+          "askCents": 59220,
+          "platform": "Courtyard",
+          "ggCardId": 2638,
+          "url": "https://courtyard.io/asset/72dde45715a191782f7fc39e1502dc84a96418ed7d42df969dfc927eb05233b5",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 70000,
+          "askCents": 74900,
+          "platform": "Collector_Crypt",
+          "ggCardId": 16085,
+          "url": "https://collectorcrypt.com/assets/solana/EFYiG5P49hQRCPJ85FtBa2yxj5WbtjxrxPxWVtjFixKm",
+          "source": "gacha_galaxy"
         }
       ],
       "appraisal": {
-        "compCount": 21,
-        "sanityRejected": true,
+        "compCount": 47,
+        "keptCount": 45,
         "rejectedCount": 2,
-        "fmvLow": 55002,
-        "fmvPoint": 58000,
-        "fmvHigh": 60998,
-        "spreadBps": 1034,
-        "keptCount": 19,
-        "confidenceScore": 94,
+        "fmvLow": 52403,
+        "fmvPoint": 65000,
+        "fmvHigh": 77597,
+        "spreadBps": 3876,
+        "confidenceScore": 75,
         "confidenceTier": "REAL",
         "eligible": true,
         "riskTier": "A",
@@ -509,160 +873,238 @@
       "certId": "153708045",
       "grade": "GEM-MT 10",
       "subjectNft": "E1WjZYUo54Kr8Tmz8Mddxda6oQhVZWnQ1ciYhF6poKYi",
-      "subjectInsuredUsd": 400.0,
-      "subjectAskUsd": null,
       "solscan": "https://solscan.io/address/E1WjZYUo54Kr8Tmz8Mddxda6oQhVZWnQ1ciYhF6poKYi",
-      "slabsFound": 24,
+      "sources": {
+        "collector_crypt": 23,
+        "gacha_galaxy": 6,
+        "poketrace": 0
+      },
       "comps": [
         {
           "kind": "insured_value",
           "cents": 38500,
           "cert": "98778449",
-          "nft": "EVfjG6iGwr2sQTocFLm94cmVRfMjGZ8UdoQkYuAuBqqz"
+          "nft": "EVfjG6iGwr2sQTocFLm94cmVRfMjGZ8UdoQkYuAuBqqz",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 38500,
           "cert": "97420499",
-          "nft": "6eAAPn8NsF441aVG4NggoiYdBiyGtU5p5Dov4NzSASN6"
+          "nft": "6eAAPn8NsF441aVG4NggoiYdBiyGtU5p5Dov4NzSASN6",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 38500,
           "cert": "150447851",
-          "nft": "BxRRFen9h1qP9GZgsjk6QoGEphhf7LQrCJwRyzZBaJdz"
+          "nft": "BxRRFen9h1qP9GZgsjk6QoGEphhf7LQrCJwRyzZBaJdz",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 38500,
           "cert": "142167397",
-          "nft": "BMtXE2YNb82RorSvkP39WtaszFwnw5pzE44kGkxLU6dN"
+          "nft": "BMtXE2YNb82RorSvkP39WtaszFwnw5pzE44kGkxLU6dN",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 38500,
           "cert": "117427540",
-          "nft": "5SMLyNqrJBPUVoSdMfAdvXeEffertFLXwX52n4beDYy6"
+          "nft": "5SMLyNqrJBPUVoSdMfAdvXeEffertFLXwX52n4beDYy6",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 38500,
           "cert": "110022417",
-          "nft": "2MwgGyq8CeDiNkucyp7DVKJtP4nN4LVdPrjgMjLieewm"
+          "nft": "2MwgGyq8CeDiNkucyp7DVKJtP4nN4LVdPrjgMjLieewm",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 38500,
           "cert": "104848268",
-          "nft": "F2Td2eDGULtuu5ciVP8j99QojC5uEeFk9zZJ94hXCEre"
+          "nft": "F2Td2eDGULtuu5ciVP8j99QojC5uEeFk9zZJ94hXCEre",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 38500,
           "cert": "119712445",
-          "nft": "Y1FLgutTfsrEpCXg5cbz6MqiU7HmCsjKTmwcULQ5vsG"
+          "nft": "Y1FLgutTfsrEpCXg5cbz6MqiU7HmCsjKTmwcULQ5vsG",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 38500,
           "cert": "108626115",
-          "nft": "Do58y4UA4WqjtpJrh2AFfDpSw1ujfg5sRHCKFUxKrmRp"
+          "nft": "Do58y4UA4WqjtpJrh2AFfDpSw1ujfg5sRHCKFUxKrmRp",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 38500,
           "cert": "94737284",
-          "nft": "HDtYt1m2apuTLoNGgMNd79WWd6HLV3QCfEB6m71ZSQvy"
+          "nft": "HDtYt1m2apuTLoNGgMNd79WWd6HLV3QCfEB6m71ZSQvy",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 38500,
           "cert": "130766492",
-          "nft": "3YvyYpdqubmhKynRLqCXHMhjxsGAC9pgKNKHJwzvrENc"
+          "nft": "3YvyYpdqubmhKynRLqCXHMhjxsGAC9pgKNKHJwzvrENc",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 39500,
           "cert": "164575523",
-          "nft": "6LoCnhrJmJ5b9o8nvNFQtJeq8dP6CoJw5qJQa8YCXX53"
+          "nft": "6LoCnhrJmJ5b9o8nvNFQtJeq8dP6CoJw5qJQa8YCXX53",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 40000,
           "cert": "168973214",
-          "nft": "8jFTLjsRR54GxijPS7npsj4NgzsojKLX8aZjnbLey45G"
+          "nft": "8jFTLjsRR54GxijPS7npsj4NgzsojKLX8aZjnbLey45G",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 40000,
           "cert": "170853117",
-          "nft": "EiPWiC6cDnpqihkZH98CF5AGAv1skhrF7GbjgsEJcZpo"
+          "nft": "EiPWiC6cDnpqihkZH98CF5AGAv1skhrF7GbjgsEJcZpo",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 41000,
           "cert": "136388711",
-          "nft": "6zduUGWFjJsxUdfGKNGnnxKPa4pa68mGPMd3GEd2iF8Q"
+          "nft": "6zduUGWFjJsxUdfGKNGnnxKPa4pa68mGPMd3GEd2iF8Q",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 41500,
           "cert": "136951409",
-          "nft": "9zXS8yfWWYwJXCwAtvfHRKVtf5T7iSfz7b96npBmevx6"
+          "nft": "9zXS8yfWWYwJXCwAtvfHRKVtf5T7iSfz7b96npBmevx6",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 42500,
           "cert": "70691805",
-          "nft": "FfxtiZdWSxCggQgxKxpLMJU55qWi1tUs8QnSshW8mz9C"
+          "nft": "FfxtiZdWSxCggQgxKxpLMJU55qWi1tUs8QnSshW8mz9C",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 42500,
           "cert": "164446941",
-          "nft": "AJnTf9dmvJtwddL3st3EsusuSMMQwmwnnLBzueNija28"
+          "nft": "AJnTf9dmvJtwddL3st3EsusuSMMQwmwnnLBzueNija28",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 42500,
           "cert": "164446940",
-          "nft": "FYYkrmq3gCbQHY3m8VugqKWqesZHcgvQGgWcftzh4WSh"
+          "nft": "FYYkrmq3gCbQHY3m8VugqKWqesZHcgvQGgWcftzh4WSh",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 42500,
           "cert": "145055047",
-          "nft": "8A3J9xPgy3MHGWmsKm8XRAzbcCRkxtT2ho23M3fSmZ23"
+          "nft": "8A3J9xPgy3MHGWmsKm8XRAzbcCRkxtT2ho23M3fSmZ23",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 42500,
           "cert": "94906532",
-          "nft": "DNjnTEoeWWLMnofbiUhCDGhD4er1U297EiJfdbexyoNE"
+          "nft": "DNjnTEoeWWLMnofbiUhCDGhD4er1U297EiJfdbexyoNE",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 42500,
           "cert": "99720702",
-          "nft": "AQW9QxfTM7g86ub3nLeXgaBMU7FmFY8s7GwVCefDkvvU"
+          "nft": "AQW9QxfTM7g86ub3nLeXgaBMU7FmFY8s7GwVCefDkvvU",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 42500,
           "cert": "99221336",
-          "nft": "2pwYe6wm5yTVA2U79BKVPgHYEJ6Sq3ESXQo4s7G5scoS"
+          "nft": "2pwYe6wm5yTVA2U79BKVPgHYEJ6Sq3ESXQo4s7G5scoS",
+          "source": "collector_crypt"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 42200,
+          "askCents": 60000,
+          "platform": "Courtyard",
+          "ggCardId": 3492,
+          "url": "https://courtyard.io/asset/af559f3aad1d942e55b59c1d6e3202c18d327327ec71f9afacdf18ed134480d2",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 48600,
+          "askCents": 46500,
+          "platform": "Courtyard",
+          "ggCardId": 3492,
+          "url": "https://courtyard.io/asset/c49600ebe7be6cd4374a2a5b58ff1b87bc82a45896f3bb3bc29de30dc10227fb",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 51430,
+          "askCents": 46300,
+          "platform": "Courtyard",
+          "ggCardId": 3492,
+          "url": "https://courtyard.io/asset/72e540c8ae10620a692e43d1de05b135812511fab567c57e10c8bf22d83e599d",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 47600,
+          "askCents": 55000,
+          "platform": "Courtyard",
+          "ggCardId": 3492,
+          "url": "https://courtyard.io/asset/9a01e70721f5ad912e7eab3bd714022bf97b3666951a278b34ff9b286064b3b0",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 52500,
+          "askCents": 46900,
+          "platform": "Courtyard",
+          "ggCardId": 3492,
+          "url": "https://courtyard.io/asset/fcd48b8198387aa9038dce03063435a0c7a9938ce37a71baaccfedd142da17da",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 52400,
+          "askCents": 50000,
+          "platform": "Courtyard",
+          "ggCardId": 3492,
+          "url": "https://courtyard.io/asset/981a54219bb1b3d47ac3d9a6bc70f97f1d8e42a373a19bdfe9af9b5c81249564",
+          "source": "gacha_galaxy"
         }
       ],
       "appraisal": {
-        "compCount": 23,
-        "sanityRejected": false,
+        "compCount": 29,
+        "keptCount": 29,
         "rejectedCount": 0,
-        "fmvLow": 37502,
-        "fmvPoint": 39500,
-        "fmvHigh": 41498,
-        "spreadBps": 1012,
-        "keptCount": 23,
-        "confidenceScore": 94,
+        "fmvLow": 34002,
+        "fmvPoint": 41000,
+        "fmvHigh": 47998,
+        "spreadBps": 3414,
+        "confidenceScore": 78,
         "confidenceTier": "REAL",
         "eligible": true,
         "riskTier": "A",
@@ -675,106 +1117,238 @@
       "certId": "111992917",
       "grade": "GEM-MT 10",
       "subjectNft": "EHSB8Y4mUepqFNWWDsvz4UzE4GGx9WpjRKD5ou31vJKQ",
-      "subjectInsuredUsd": 270.0,
-      "subjectAskUsd": null,
       "solscan": "https://solscan.io/address/EHSB8Y4mUepqFNWWDsvz4UzE4GGx9WpjRKD5ou31vJKQ",
-      "slabsFound": 15,
+      "sources": {
+        "collector_crypt": 14,
+        "gacha_galaxy": 13,
+        "poketrace": 0
+      },
       "comps": [
         {
           "kind": "insured_value",
           "cents": 25500,
           "cert": "117034760",
-          "nft": "DXygK1QVimjRfYxUyDNieSipYi14U3V82fZrFGG26Mdz"
+          "nft": "DXygK1QVimjRfYxUyDNieSipYi14U3V82fZrFGG26Mdz",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 25500,
           "cert": "108708978",
-          "nft": "7F48tKzWwUw9UFroVe9ZZUsai1mVx8usNkso1UfMfbe5"
+          "nft": "7F48tKzWwUw9UFroVe9ZZUsai1mVx8usNkso1UfMfbe5",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 26000,
           "cert": "166680443",
-          "nft": "5bknCoP1m5MvsBdQ5xokgPeK7nXH8rnWaLLQibHjqjei"
+          "nft": "5bknCoP1m5MvsBdQ5xokgPeK7nXH8rnWaLLQibHjqjei",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 26000,
           "cert": "158848131",
-          "nft": "3BJjU3qCN9FdEb4zFywWeRvPGwN9KgdwFV1sAFfb9k7e"
+          "nft": "3BJjU3qCN9FdEb4zFywWeRvPGwN9KgdwFV1sAFfb9k7e",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 26300,
           "cert": "134420035",
-          "nft": "59A8qqTzj6QTe4MCxBPYRRnfjLvn1XaeCRBcd8GKx3y5"
+          "nft": "59A8qqTzj6QTe4MCxBPYRRnfjLvn1XaeCRBcd8GKx3y5",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 26500,
           "cert": "105134888",
-          "nft": "9tVwvu4rLfF4yx6kFDpUmeWf5FzUo7c8eBYShgo1WETS"
+          "nft": "9tVwvu4rLfF4yx6kFDpUmeWf5FzUo7c8eBYShgo1WETS",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 27000,
           "cert": "118649872",
-          "nft": "5X1aYbgJfGaa967JhLh4Z6c8EaCrW2ZrNzteqj5N4xJq"
+          "nft": "5X1aYbgJfGaa967JhLh4Z6c8EaCrW2ZrNzteqj5N4xJq",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 27500,
           "cert": "94979296",
-          "nft": "8CyxbtwPtJ9Lmo9DWmZVUcdjB7J5EpPdyCa4SnWQhpkG"
+          "nft": "8CyxbtwPtJ9Lmo9DWmZVUcdjB7J5EpPdyCa4SnWQhpkG",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 27500,
           "cert": "126376143",
-          "nft": "J8L1b2LPMshvGcSGUZ9NQo5QHViFCLHeyEcDDS9TSCrf"
+          "nft": "J8L1b2LPMshvGcSGUZ9NQo5QHViFCLHeyEcDDS9TSCrf",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 27500,
           "cert": "102218003",
-          "nft": "E73PPhk5PpxJASN49nsD7WSXTACZwF3VGDXtRhdKt8g5"
+          "nft": "E73PPhk5PpxJASN49nsD7WSXTACZwF3VGDXtRhdKt8g5",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 27500,
           "cert": "115049855",
-          "nft": "GyAFGzebb7wzDBSEfjRknnyxQcuNRCqaVhvhXTnrtuQx"
+          "nft": "GyAFGzebb7wzDBSEfjRknnyxQcuNRCqaVhvhXTnrtuQx",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 27500,
           "cert": "106456670",
-          "nft": "HYJns6Uqg4PSBMGnRxQ9eEvgZuNznRVfF9o1EQVotcrK"
+          "nft": "HYJns6Uqg4PSBMGnRxQ9eEvgZuNznRVfF9o1EQVotcrK",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 27500,
           "cert": "127122262",
-          "nft": "GjgEbCj5FzyUpGkNgFszX4v3HacJS2CuS6JK4KtTaN9S"
+          "nft": "GjgEbCj5FzyUpGkNgFszX4v3HacJS2CuS6JK4KtTaN9S",
+          "source": "collector_crypt"
         },
         {
           "kind": "insured_value",
           "cents": 27500,
           "cert": "166605243",
-          "nft": "AWZrfkQUpN5M1vswAWWuzA8YL9ySx4fAwoG4frvP2ovp"
+          "nft": "AWZrfkQUpN5M1vswAWWuzA8YL9ySx4fAwoG4frvP2ovp",
+          "source": "collector_crypt"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 25000,
+          "askCents": 29900,
+          "platform": "Collector_Crypt",
+          "ggCardId": 11822,
+          "url": "https://collectorcrypt.com/assets/solana/7iYZJ6aMRwqdZchqouzNPXtfpqPLVefzWLcA1cFkaFhk",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 25000,
+          "askCents": 25900,
+          "platform": "Collector_Crypt",
+          "ggCardId": 11822,
+          "url": "https://collectorcrypt.com/assets/solana/5n2rs3dESrrLqXSq2UPdckHxoxR2TjFSMAdq8WccjHdo",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 30000,
+          "askCents": 29000,
+          "platform": "Collector_Crypt",
+          "ggCardId": 11822,
+          "url": "https://collectorcrypt.com/assets/solana/59A8qqTzj6QTe4MCxBPYRRnfjLvn1XaeCRBcd8GKx3y5",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 30000,
+          "askCents": 30000,
+          "platform": "Collector_Crypt",
+          "ggCardId": 11822,
+          "url": "https://collectorcrypt.com/assets/solana/31AnzNB2UfzknEBhm85ye9FbZ61F62wJLXnTYNL8yXeF",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 26600,
+          "askCents": 30000,
+          "platform": "Courtyard",
+          "ggCardId": 2419,
+          "url": "https://courtyard.io/asset/d3a235e86e6ede00fa65f41eb33ed8a41e99a3f67574d36cf26edf0143640087",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 28400,
+          "askCents": 50000,
+          "platform": "Courtyard",
+          "ggCardId": 2419,
+          "url": "https://courtyard.io/asset/89020b4bc12378f5b9305c67cd417ce93a0bca1bc8b9100630648c16eb77a79e",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 28300,
+          "askCents": 25900,
+          "platform": "Courtyard",
+          "ggCardId": 2419,
+          "url": "https://courtyard.io/asset/898b97cae8ea7d19ae526e114f55fb73826ac70b56aa47e58a0164c244e06665",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 28500,
+          "askCents": 28500,
+          "platform": "Courtyard",
+          "ggCardId": 2419,
+          "url": "https://courtyard.io/asset/f82aadcc64939fe72f928d48b425358fff074dc8d0d370a052faee6a0959e83b",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 28400,
+          "askCents": 28100,
+          "platform": "Courtyard",
+          "ggCardId": 2419,
+          "url": "https://courtyard.io/asset/8c795f4b7031072c1c5e088b1899f9f86e3c3d9dbbdb2b614e4e5f6e41f547f0",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 30200,
+          "askCents": 45000,
+          "platform": "Courtyard",
+          "ggCardId": 2419,
+          "url": "https://courtyard.io/asset/7d9ee70671538d0a383c415c9b804712a6c176ee17e062d6ef1b1b36ebd07678",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 29400,
+          "askCents": 28000,
+          "platform": "Courtyard",
+          "ggCardId": 2419,
+          "url": "https://courtyard.io/asset/19520ad5239eacf87bab850a32a508f6c734611a29ef78d778fc9ff0d4b3ad8a",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 29400,
+          "askCents": 30000,
+          "platform": "Courtyard",
+          "ggCardId": 2419,
+          "url": "https://courtyard.io/asset/7e083608d55418b41951105fadab6b4ae719e06f128d9ff5bf2302f989dcd17f",
+          "source": "gacha_galaxy"
+        },
+        {
+          "kind": "gg_oracle_fmv",
+          "cents": 29100,
+          "askCents": 28000,
+          "platform": "Courtyard",
+          "ggCardId": 2419,
+          "url": "https://courtyard.io/asset/823e02456d72557f33a4214acace772577a7945e48888e01fbb3604f096709be",
+          "source": "gacha_galaxy"
         }
       ],
       "appraisal": {
-        "compCount": 14,
-        "sanityRejected": false,
+        "compCount": 27,
+        "keptCount": 27,
         "rejectedCount": 0,
-        "fmvLow": 26253,
-        "fmvPoint": 27250,
-        "fmvHigh": 28247,
-        "spreadBps": 733,
-        "keptCount": 14,
-        "confidenceScore": 96,
+        "fmvLow": 24902,
+        "fmvPoint": 27500,
+        "fmvHigh": 30098,
+        "spreadBps": 1890,
+        "confidenceScore": 88,
         "confidenceTier": "REAL",
         "eligible": true,
         "riskTier": "A",
