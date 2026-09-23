@@ -1,0 +1,18 @@
+{
+  "type": "appraisal",
+  "appraisal": {
+    "certId": "109308847",
+    "fmvLow": "258651",
+    "fmvHigh": "321349",
+    "fmvPoint": "290000",
+    "confidenceTier": "REAL",
+    "confidenceScore": 86,
+    "eligible": true,
+    "ltvBps": 5000,
+    "riskTier": "A",
+    "compCount": 20,
+    "sanityRejected": false,
+    "timestamp": 1790147644
+  },
+  "nonce": 1
+}

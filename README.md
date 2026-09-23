@@ -17,6 +17,25 @@ scoring logic ever leaving the enclave.
                                                  • LTV (bps) + risk tier (A/B/C/REJECT)
 ```
 
+## Architecture: two layers, one product
+```
+  PRIVACY LAYER (Horizen Vela TEE)                    LENDING LAYER (Robinhood Chain)
+  ──────────────────────────────────                  ─────────────────────────────────────
+  private dealer / marketplace comps  ─┐
+  Gacha Galaxy scoring model          ─┼─► attested   AppraisalRegistry  (price certificate)
+  (never leave the enclave)           ─┘   appraisal          │  read by
+                                              │               ▼
+                                     bridge/vela_to_registry.py   CardLendingVault ──► borrow tUSD
+                                     (publishes as attester)       against a GradedCard token
+```
+- **Privacy layer**: computes the fair-value band, confidence, eligibility and LTV. Raw comps stay private.
+- **Lending layer**: stores the certificate onchain and lends against it.
+- **Bridge**: `bridge/vela_to_registry.py` takes Vela's public attested `appraisal` event and publishes it to the registry. **Tested live:** [bridge publish tx](https://explorer.testnet.chain.robinhood.com/tx/0x5bcddb7f009a8459531a2cfec2916390bf3f89a87a886eceaab158e34a140c94)
+- The two layers are loosely coupled: the registry accepts certificates from any address holding `ATTESTER_ROLE` (today the Gacha Galaxy deployer; production: the Vela enclave's attestation key / a multisig).
+
+## Lending layer on Robinhood Chain (live)
+The attested appraisals feed a lending layer on **Robinhood Chain testnet**: see `onchain/` (contracts, tests, pricing data) and `bridge/` (publisher). All contracts are verified, 6 certificates are published, and a live $1,000 borrow has been made against a PSA 10 card. Addresses are in `onchain/README.md`.
+
 ## Privacy boundary
 
 | Stays private (inside TEE) | Settles / attested (onchain) |

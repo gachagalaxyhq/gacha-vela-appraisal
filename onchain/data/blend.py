@@ -3,7 +3,7 @@ Blend comps from both sources into ONE appraisal per slab:
   - Gacha Galaxy oracle fair values (same-grade live listings)   -> seed_cards_gg.json
   - Collector Crypt insured values + live asks (same item/grade) -> seed_cards_collectorcrypt.json
 PokeTrace sold comps get added here once a key is available.
-Same appraise.go port (median, 60% sanity filter, confidence, tier, LTV).
+Same Gacha Galaxy appraisal model (median, 60% sanity filter, confidence, tier, LTV).
 Price basis: none of these are completed sales.
 """
 import json, datetime

@@ -4,7 +4,7 @@ PRIMARY data source: Gacha Galaxy's own live oracle (gachagalaxy.io/app, public,
   subject = a real vaulted slab (grader + cert number) from Collector Crypt's public API
   comps   = Gacha Galaxy oracle fair values for every live listing of the SAME card at the
             SAME grade, across the marketplaces Gacha Galaxy tracks (Courtyard, Collector Crypt, Beezie...)
-Appraisal = the same port of appraise.go used everywhere else (median, 60% sanity filter,
+Appraisal = the Gacha Galaxy appraisal model (median, 60% sanity filter,
 confidence, tier, LTV). Cards with fewer than 3 same-grade comps come out INELIGIBLE (LTV 0):
 the engine refuses to lend on thin data.
 

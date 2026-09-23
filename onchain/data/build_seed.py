@@ -11,7 +11,7 @@ IMPORTANT, and stated in the README too:
   NOT completed sales. Swap in sold comps (PokeTrace / TCG Price Lookup / PSA APR)
   once an API key is available. The appraisal maths below does not change.
 
-The valuation is a line-for-line port of app/appraise.go (defaultScoring):
+Valuation = Gacha Galaxy appraisal model (default scoring):
 median -> 60% deviation sanity filter -> median of kept -> band = +/- spread/2
 -> confidence score -> tier -> LTV.
 """
@@ -30,7 +30,7 @@ TARGETS = [
     ("Umbreon Vmax Brilliant Stars", "2022 #TG23 Full Art/Umbreon Vmax PSA 10 Sword & Shield Brilliant Stars"),
 ]
 
-# ---- port of appraise.go defaultScoring ----
+# ---- Gacha Galaxy appraisal model (default scoring) ----
 CFG = dict(MaxDevBps=6000, ConfReal=70, ConfModest=40, MinEligible=40, MinComps=3,
            LtvA=5000, LtvB=3500, LtvC=2000)
 
