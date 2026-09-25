@@ -8,12 +8,17 @@ Built for the Arbitrum Open House Singapore Buildathon.
 | Contract | Address |
 |---|---|
 | AppraisalRegistry | [0x30dfBCA3978CE186e6107A93cedC7d2971d30950](https://explorer.testnet.chain.robinhood.com/address/0x30dfBCA3978CE186e6107A93cedC7d2971d30950) |
-| GradedCard | [0x2Ca223844D4D118Ee92509C6c4dbD81Cb5Be1CC8](https://explorer.testnet.chain.robinhood.com/address/0x2Ca223844D4D118Ee92509C6c4dbD81Cb5Be1CC8) |
+| GradedCard (v2, with demo cards) | [0xDB6750f02192F670F93e592e4dd547fF10Ae46a5](https://explorer.testnet.chain.robinhood.com/address/0xDB6750f02192F670F93e592e4dd547fF10Ae46a5) |
 | TestUSD | [0x7e7f329325eAD4EC00807F08c5DC528cafeD77e1](https://explorer.testnet.chain.robinhood.com/address/0x7e7f329325eAD4EC00807F08c5DC528cafeD77e1) |
-| CardLendingVault | [0xa9B03F4cB087d4D08d96E8e06887e362daE36400](https://explorer.testnet.chain.robinhood.com/address/0xa9B03F4cB087d4D08d96E8e06887e362daE36400) |
+| CardLendingVault (v2) | [0xca63dffB29376cff29B6DD38404B6c1d0105fc2A](https://explorer.testnet.chain.robinhood.com/address/0xca63dffB29376cff29B6DD38404B6c1d0105fc2A) |
 
 **6 price certificates published** for real vaulted PSA 10 slabs.
-**Live borrow:** PSA 10 Rayquaza VMAX (cert 109308847) deposited, **$1,000 borrowed** against a $1,293 limit set by its certificate. [Borrow transaction](https://explorer.testnet.chain.robinhood.com/tx/0xd8910a2a6e58f3a9ecd2c15c7535fc2d63e79d09a951058524f4f4471c019491)
+**Live borrow:** PSA 10 Rayquaza VMAX (cert 109308847) deposited, **$1,000 borrowed** against a $1,293 limit set by its certificate. [Borrow transaction (v2)](https://explorer.testnet.chain.robinhood.com/tx/0x271f400b0e5389851bc40b0c138c68d84baed3feb54a940d883e472e01b19fdd)
+
+**Try it yourself (judges):** open the demo page, connect MetaMask, pick a slab and tap **Get a demo card**. You get your own demo copy of that slab (token flagged `isDemo`, one per wallet every 10 minutes), then deposit, borrow, repay and withdraw. You need a little test ETH for gas from the [Robinhood Chain faucet](https://faucet.testnet.chain.robinhood.com). Tested end to end with a fresh wallet: [claim](https://explorer.testnet.chain.robinhood.com/address/0xDB6750f02192F670F93e592e4dd547fF10Ae46a5).
+
+**v1 (history):** GradedCard `0x2Ca223844D4D118Ee92509C6c4dbD81Cb5Be1CC8`, CardLendingVault `0xa9B03F4cB087d4D08d96E8e06887e362daE36400`. First live borrow of $1,000: [tx](https://explorer.testnet.chain.robinhood.com/tx/0xd8910a2a6e58f3a9ecd2c15c7535fc2d63e79d09a951058524f4f4471c019491). v2 adds demo cards; the registry and TestUSD are unchanged.
+
 
 ## Architecture: two layers, one product
 ```
@@ -93,7 +98,7 @@ Refresh the data: `python3 data/build_seed.py && python3 data/build_seed_gg.py &
 
 ## Try it (cast)
 ```bash
-R=0x30dfBCA3978CE186e6107A93cedC7d2971d30950; V=0xa9B03F4cB087d4D08d96E8e06887e362daE36400
+R=0x30dfBCA3978CE186e6107A93cedC7d2971d30950; V=0xca63dffB29376cff29B6DD38404B6c1d0105fc2A
 cast call $R "getAppraisalByCert(string,string)((uint64,uint64,uint64,uint16,uint16,uint16,uint8,uint8,bool,uint40,address))" PSA 109308847 --rpc-url https://rpc.testnet.chain.robinhood.com
 cast call $V "borrowLimit(uint256)(uint256)" 1 --rpc-url https://rpc.testnet.chain.robinhood.com
 ```

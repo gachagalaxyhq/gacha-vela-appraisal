@@ -178,3 +178,91 @@ contract CardLendingTest is Test {
         }
     }
 }
+
+contract DemoCardTest is Test {
+    AppraisalRegistry reg;
+    GradedCard cards;
+    TestUSD usd;
+    CardLendingVault vault;
+    address admin = address(0xA11CE);
+    address attester = address(0xA77E5);
+    address judge = address(0x10D6E);
+
+    function setUp() public {
+        vm.warp(1_790_000_000);
+        reg = new AppraisalRegistry(admin, attester);
+        cards = new GradedCard(admin);
+        usd = new TestUSD(admin);
+        vault = new CardLendingVault(admin, reg, cards, usd);
+        vm.startPrank(admin);
+        usd.mint(address(vault), 1_000_000e6);
+        cards.mint(admin, "PSA", "109308847", "10", "Rayquaza VMAX 218");   // the real tokenized slab
+        cards.addDemoCard("PSA", "109308847", "10", "Rayquaza VMAX 218");
+        vm.stopPrank();
+        vm.prank(attester);
+        reg.publish("PSA", "109308847", 258651, 290000, 321349, 5000, 860, 20,
+            AppraisalRegistry.Confidence.REAL, AppraisalRegistry.Risk.A, true);
+    }
+
+    function test_anyoneCanClaimDemoAndBorrow() public {
+        vm.startPrank(judge);
+        uint256 id = cards.claimDemo(0);
+        assertTrue(cards.isDemo(id));
+        assertEq(cards.ownerOf(id), judge);
+        assertEq(cards.certKeyOf(id), reg.certKey("PSA", "109308847"));   // same certificate
+        cards.approve(address(vault), id);
+        vault.deposit(id);
+        assertEq(vault.borrowLimit(id), 1_293_255_000);                  // $1,293.255
+        vault.borrow(id, 100e6);
+        assertEq(usd.balanceOf(judge), 100e6);
+        usd.approve(address(vault), 100e6);
+        vault.repay(id, 100e6);
+        vault.withdraw(id);
+        vm.stopPrank();
+        assertEq(cards.ownerOf(id), judge);
+    }
+
+    function test_realTokenIsNotDemo() public view {
+        assertFalse(cards.isDemo(1));
+    }
+
+    function test_demoCooldown() public {
+        vm.startPrank(judge);
+        cards.claimDemo(0);
+        vm.expectRevert(abi.encodeWithSelector(GradedCard.DemoCooldown.selector, block.timestamp + 10 minutes));
+        cards.claimDemo(0);
+        vm.warp(block.timestamp + 10 minutes);
+        cards.claimDemo(0);
+        vm.stopPrank();
+    }
+
+    function test_badDemoIndex() public {
+        vm.prank(judge);
+        vm.expectRevert(GradedCard.BadDemoIndex.selector);
+        cards.claimDemo(5);
+    }
+
+    function test_onlyOwnerAddsDemoCards() public {
+        vm.prank(judge);
+        vm.expectRevert();
+        cards.addDemoCard("PSA", "1", "10", "x");
+    }
+
+    function test_demoCopyCannotStealRealPosition() public {
+        // admin deposits the real slab and borrows; a judge's demo copy is a separate position
+        vm.startPrank(admin);
+        cards.approve(address(vault), 1);
+        vault.deposit(1);
+        vault.borrow(1, 500e6);
+        vm.stopPrank();
+        vm.startPrank(judge);
+        uint256 id = cards.claimDemo(0);
+        vm.expectRevert(CardLendingVault.NotOwner.selector);
+        vault.borrow(1, 1e6);            // the real slab's loan belongs to admin
+        vm.expectRevert(CardLendingVault.NotDeposited.selector);
+        vault.borrow(id, 1e6);           // demo copy must be deposited first
+        vm.stopPrank();
+        (address o, uint256 d) = vault.positions(1);
+        assertEq(o, admin); assertEq(d, 500e6);
+    }
+}
